@@ -141,29 +141,26 @@ COLOUR SHEME IN HERE
 
 ### Features ###  
 
-Each page of the website features a consistent responsive navigational system:  
-
-The Header contains the name of The Wingmans at the left, and the navbar at the right on large screen sizes. When down to medium or less, the navbar collapses but the name remains at the left. The Footer fills one line on large screens, but stack on top of each other on medium or less screen size. 
+The web application has a responsive layout who has pretty much the same layout on all screensizes. The thought behind that decision is that the application is for kids. The placement of the content should be easy to remember and use regardless of whether the game is played on a phone or a tablet etc.   
 
 Features that have been implemented:  
-* Easy to navigate on all screensizes.  
-* Social media links for more inspiration and more knowledge of who the founders is.
-* Link to [Taplist](https://taplist.io/) On Taplist you can watch real-time what beer the Wingmans have on their tap, and how much! Up for a taste? 
-* Contact form with submit button. Here you can get the steps for success, ask questions, or just say hello.  
-* About Us page where you get to know the vision of the founders.  
-* Reviews Section where you can get an impression of how it is to collaborate and speak with the founders.
+* Memory-game
+* Score and number of moves used
+* Reset button
+* Button change color when pushed
+* Easy to navigate on all screensizes 
+* Contact form with submit button. Here you can ask questions to the developer  
+* Social media links 
 
 Features that will be implemented in the future:  
-* Video blog / link to youtube  
-* Logbook  
-* Forum  
-* Background music / button on-off  
-* Taplist to be implemented on the site, and not open in a new tab
+* Highscore
+* Background music / button on-off
 
 ### Technologies ###  
 Languages  
 * [HTML](https://no.wikipedia.org/wiki/HTML)  
-* [CSS](https://en.wikipedia.org/wiki/CSS)  
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [JS](https://no.wikipedia.org/wiki/JavaScript)  
 
 Tools / Libraries  
 * [Git](https://git-scm.com/)  
@@ -180,32 +177,29 @@ Unsplash was used for the hero image, reviews section as well as the background 
 Coolors was used to make the collorpallet.  
 * [Multi Device Mockup Generator](http://techsini.com/multi-mockup/index.php)  
 Multi device mockup was used in order to see the responsive design throughout the process and to generate mockup image to readme file.  
+* [The W3C Markup Validation Service](https://validator.w3.org/)
+Used to validate the HTML.
+* [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+Used to validate the CSS.
+* [JSHint](https://jshint.com/)
+Used to validate the JS.
 
 ### Testing ###  
-The testing process for me has been through the intire building of this project, as I wanted everything to be perfect before moving on. I have also worked closely with the founders with each step, to make sure that the site meets all the user stories criteria.
+The testing process for me has been through the intire building of the web application, as I wanted everything to be perfect before moving on. It was also importent to make sure that the site meets all the user stories criteria.
 
-For HTML Validate I used [The W3C Markup Validation Service](https://validator.w3.org/).  
-For CSS I used [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+For HTML Validate I used [The W3C Markup Validation Service](https://validator.w3.org/), for CSS I used [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and for JS I used [JSHint](https://jshint.com/)
 
 Testing before deployment:
+
+TESTING IN HERE!!!
 
 Index / Home validate - ok   
 ![Index validate](assets/images/testing/index_validate_ok.png)  
 
-About US validate - error 4 times, before I understod that it was a space in the name of an image.    
-![About validate](assets/images/testing/about_validate_error.png)  
-
-About US validate - ok, renamed the image  
-![About validate 5](assets/images/testing/about_validate_ok.png)  
-
-Gallery validate - ok  
-![Gallery validate](assets/images/testing/gallery_validate_ok.png)  
-
-Contact validate - ok  
-![Contact validate](assets/images/testing/contact_validate_ok.png)  
-
 CSS validate - ok  
 ![CSS validate](assets/images/testing/css_validate_ok.png)
+
+Wright down all testing under the process !!!!
 
 Here I got two errors the first time, but forgot to take a printscreen. The first one was that I got an extra div I needed to delete, and the second was "spacing not allowed", removed the extra space.  
 
@@ -213,11 +207,13 @@ I have tested the live site on different screens: iphone 6, 8, x and x plus - as
 
 Testing on both Safari and Google Crome, and working fine. I think maybe it loads a little to slow on gallery page.  
 
-Peer-code review - The text color is to light. I agree on that, but I had an issue/bug on that and couldent make it darker, description under "Bugs". I was also told that Taplist should not open in a new tab (bad UX), but be implemented to the site. I will implement taplist to be on the site in the future.
+Peer-code review - 
 
-User testing feedback - "Think it would be nice if the name, The Wingmans, on the top left was centered". Only one of the people who was asked to review the site thought that, so I havent made any changes to that, as I personally thinks its nicer on the left.
+User testing feedback - 
 
 ### Bugs ###  
+
+ALL BUGS IN HERE !!!!!
 
 It has been a large number of issues and bugs during the development of this website, the noteworthy below:  
 
@@ -235,7 +231,7 @@ Bootstrap script links - After peer code review I was told that the Bootstrap sc
   To deploy on GitHub pages from it`s GitHub respository, the following steps were taken:  
     
   1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").  
-  2. Locate the [GitHub Respository](https://github.com/Carhul/Wingmans-Brygge "Link to GitHub repository").  
+  2. Locate the [GitHub Respository](https://github.com/Carhul/ms2-kids-memory-game "Link to GitHub repository").  
   3. At the top of the repository, select Settings from the menu items.  
   4. Scroll down the Settings page to the "GitHub Pages" section and push the blue "Check it out here!" text.  
   5. Under "Source" click the drop-down menu labelled "None" and select "Master".  
@@ -247,7 +243,7 @@ Bootstrap script links - After peer code review I was told that the Bootstrap sc
   By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:  
     
   1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").  
-  2. Locate the [GitHub Respository](https://github.com/Carhul/Wingmans-Brygge "Link to GitHub repository").  
+  2. Locate the [GitHub Respository](https://github.com/Carhul/ms2-kids-memory-game "Link to GitHub repository").  
   3. At the top of the repository, on the right side of the page, select "Fork".  
   4. You should now have a copy of the original repository in your GitHub account.  
 
@@ -258,14 +254,14 @@ Bootstrap script links - After peer code review I was told that the Bootstrap sc
    1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.  
    2. After installation, restart the browser.  
    3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").  
-   4. Locate the [GitHub Respository](https://github.com/Carhul/Wingmans-Brygge "Link to GitHub repository").  
+   4. Locate the [GitHub Respository](https://github.com/Carhul/ms2-kids-memory-game "Link to GitHub repository").  
    5. Click the green "GitPod" button in the top right corner of the repository.
   This will trigger a new gitPod workspace to be created from the code in github where you can work locally.  
 
   How to run this project within a local IDE, such as VSCode:  
 
   1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").  
-  2. Locate the [GitHub Respository](https://github.com/Carhul/Wingmans-Brygge "Link to GitHub repository").  
+  2. Locate the [GitHub Respository](https://github.com/Carhul/ms2-kids-memory-game "Link to GitHub repository").  
   3. Under the repository name, click "Clone or download".  
   4. In the Clone with HTTPs section, copy the clone URL for the repository.  
   5. In your local IDE open the terminal.  
@@ -279,20 +275,25 @@ Bootstrap script links - After peer code review I was told that the Bootstrap sc
   Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting").
 
 ### Credit ###  
-Content and text used in this website is written by me in collaboration with the founders of Wingmans; Frode Olsen-Ryum and Lars-Petter Reitan.  
+Content and text used in this website is written by me in collaboration with my kids and husband, Leon, Mila and Thomas.  
 #### Setup and text in README.md ####  
+I have used the same inspiration as I did in MS1 for the readme file. They where awsome then and still are! So thank you to:
+
 * [byllsa](https://github.com/byIlsa/Aloy-from-outcast-to-heroine/blob/master/README.md) and [Miranda](https://github.com/mkthewlis/Milestone-Project-1) for clear, neat and inspiring readme files.
 * [Pumpkin](https://www.pumpkinwebdesign.com/web-design-manchester/top-user-expectations-for-web-design-in-2021/) for inspiration on _user requirements and expectations_ section.  
 * [rebeccatraceyt](https://github.com/rebeccatraceyt) for an exceptional readme file, and and especially the deployment section - who is a copy/paste on Forking the respository and Creating a Clone.   
   
 #### Images ####  
+
+IMAGES IN HERE !!!!
+
 About page - images is provided by [Unsplash](https://unsplash.com/). At the top from [Fred](https://unsplash.com/photos/0yqa0rMCsYk), and reviews from [Ivana](https://unsplash.com/photos/_7LbC5J-jw4), [Atikh](https://unsplash.com/photos/_KaMTEmJnxY) and [Amir](https://unsplash.com/photos/BFxyTaw3PsM).  
   
   Contact page - background image by [Pradnyal](https://unsplash.com/photos/1MqDCpA-2hU).  
     
 ### Acknowledgements ###
 
-* My mentor, Seun, for her indispensable guidance, motivation and magic trics along the way.  
-* The Wingmans, for trusting me in making this website for them.  
-* My husband and kids for their patience in this.  
+* My mentor, Seun, for her once again indispensable guidance, motivation and magic trics along the way. She really inspire me with here knowledge, humor and good mood! 
+* My kids, for helping me with the colours and pictures for this application.  
+* My husband for the patience in this, and also input. 
 * Friends and colleagues for their feedback along the way.
