@@ -135,8 +135,6 @@ PUT ICONS IN HERE: Linkdin, insta og face
 
 * Colours  
 
-COLOURS IN HERE
-
 All the colours were handpicked by the kids, (with a little intervention by the developer!) to ensure a happy and fun expression which appeals to kids.
   
   * Background: Blue Jeans, #37B5FF
