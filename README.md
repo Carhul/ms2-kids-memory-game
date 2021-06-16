@@ -176,13 +176,13 @@ Bootstrap was used to implement the responsiveness of the site, with bootstrap c
 * [Fontawsome](https://fontawesome.com/)  
 Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.  
 * [Google Fonts](https://fonts.google.com/)  
-Google fonts was used to import the fonts "Open Sans", sans-serif into the style.css file.  
+Google fonts was used to import the fonts XXXXXXXXX into the style.css file.  
 * [Unsplash](https://unsplash.com/)  
-Unsplash was used for the hero image, reviews section as well as the background wallpaper on contact page.  
+Unsplash was used for all the images on the web application.
 * [Coolors](https://coolors.co/)  
-Coolors was used to make the collorpallet.  
+Coolors was used to make the colorpalett.  
 * [Multi Device Mockup Generator](http://techsini.com/multi-mockup/index.php)  
-Multi device mockup was used in order to see the responsive design throughout the process and to generate mockup image to readme file.  
+Multi device mockup was used in order to see the responsive design throughout the process and to generate mockup image at the beginning of the readme file.  
 * [The W3C Markup Validation Service](https://validator.w3.org/)
 Used to validate the HTML.
 * [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
@@ -193,19 +193,19 @@ Used to validate the JS.
 ### Testing ###  
 The testing process for me has been through the intire building of the web application, as I wanted everything to be perfect before moving on. It was also importent to make sure that the site meets all the user stories criteria.
 
-For HTML Validate I used [The W3C Markup Validation Service](https://validator.w3.org/), for CSS I used [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and for JS I used [JSHint](https://jshint.com/)
+For HTML Validate I used [The W3C Markup Validation Service](https://validator.w3.org/), for CSS, [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and for JS I used [JSHint](https://jshint.com/)
 
 Testing before deployment:
 
 TESTING IN HERE!!!
 
-Index / Home validate - ok   
+Index / Home validate:   
 ![Index validate](assets/images/testing/index_validate_ok.png)  
 
-CSS validate - ok  
+CSS validate:  
 ![CSS validate](assets/images/testing/css_validate_ok.png)
 
-Wright down all testing under the process !!!!
+Wright down all testing under the process !!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Here I got two errors the first time, but forgot to take a printscreen. The first one was that I got an extra div I needed to delete, and the second was "spacing not allowed", removed the extra space.  
 
@@ -213,13 +213,13 @@ I have tested the live site on different screens: iphone 6, 8, x and x plus - as
 
 Testing on both Safari and Google Crome, and working fine. I think maybe it loads a little to slow on gallery page.  
 
-Peer-code review - 
+Peer-code review: 
 
-User testing feedback - 
+User testing feedback:
 
 ### Bugs ###  
 
-ALL BUGS IN HERE !!!!!
+ALL BUGS IN HERE !!!!!!!!!!!!!!!!!!!!!!!
 
 It has been a large number of issues and bugs during the development of this website, the noteworthy below:  
 
