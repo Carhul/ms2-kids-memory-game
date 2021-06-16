@@ -30,6 +30,7 @@ The main requirements in this project is to make a responsive and interactive we
 ## UX ##
 
 ### User Stories ###  
+
 As a user I want to:
 * See a nice and colorful web application
 * See nice pictures  
@@ -39,11 +40,11 @@ As a user I want to:
 
 ### Development planes ###  
 
-In order to create a website that fulfilled the expectations as described above, I worked closely with my kids and husband throughout the process.  
+In order to create a website that fulfilled the expectations as described above, I worked with my kids and husband throughout the process.  
 
 ### Strategy ###  
   
-Divided into two categories, the website will focus on the following target audiences:  
+Divided into four categories, the website will focus on the following target audiences:  
   
   * ### Demographic: ###  
     
@@ -71,12 +72,12 @@ Divided into two categories, the website will focus on the following target audi
 * See images of Lego  
 * Be happy  
 * Grow their memory
-* Ability to contact the developer directly by contact form  
+* Ability to contact the developer directly by contact form if any questions
 
 ### Site Owner Goals ###  
-* That the kids playing the game are having a good time  
-* Help them to relax and have fun 
-* Help them grow their memory 
+* The user having fun and relax 
+* The user gets in a good mood
+* The users grow their memory 
 
 ### Scope ###
 
@@ -84,7 +85,7 @@ Divided into two categories, the website will focus on the following target audi
 
 * Content that is visually appealing with lots of colours that kids appreciate 
 * Content is well structured
-* Easy to navigate the website using the menu or scroll  
+* Easy to navigate the website using the menu and scroll  
 * Easy to read typography
 * Operational links to social media that opens in a new tab  
 * Operational contact form for name, e-mail and message input  
