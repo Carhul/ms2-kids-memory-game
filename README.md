@@ -30,11 +30,12 @@ The main requirements in this project is to make a responsive and interactive we
 ## UX ##
 
 ### User Stories ###  
-* As a user I want to see a nice and colorful web application
-* As a user I want to see nice pictures  
-* As a user I want to see my score and how many moves I used 
-* As a user I want to have fun playing the game 
-* As a user I want the ability to contact the developer for questions
+As a user I want to:
+* See a nice and colorful web application
+* See nice pictures  
+* See my score and how many moves I used 
+* Have fun playing the game 
+* Have the ability to contact the developer for questions
 
 ### Development planes ###  
 
