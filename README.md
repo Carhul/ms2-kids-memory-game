@@ -109,35 +109,43 @@ The design of this web application has been created based on the colorful person
   
   As the site is ment for kids in the age between 3 and 8, it was importent that the design reflected that. It`s colorful with nice pictures and easy to navigate and understand. 
 
-  It`s one page, but the menu allows you to jump to the section you want. 
+  It`s one page, but the menu allows you to jump to the play section or the contact section. 
 
-  The page starts with the name; Kids memory-game, and the menu button on a nice background photo of two Lego figures.
+  The page starts with the name "Kids memory-game", and the menu button on a nice background photo of two Lego figures.
 
-  Then right to the "Play" section. Here the user get`s the explanation on how to play, as it says "push the boxes". Further on the user can see their score, and how many moves they used along the way.
+  Then to the "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.
 
-  It then shows "Thank you for playing" and a nice little ice-break before the contact form on a Lego background. At the end we got social media icons in purple. 
+  It then shows "Thank you for playing" and a nice little lego ice-break image before the contact form on a Lego sandman background. 
+  
+  At the end we got social media icons. 
 
   All round, the game is looking nice and fun to play. Especially according to my kids!
 
 * Fonts  
+
 PUT FONTS IN HERE
+
   [Google Fonts](https://fonts.google.com/specimen/Open+Sans): Open Sans, sans-serif.
 
 * Icons  
-PUT ICONS IN HERE
+
+PUT ICONS IN HERE: Linkdin, insta og face
+
 [Fontawsome](https://fontawesome.com/icons?d=gallery&p=2) provided the icons for [Facebook](https://fontawesome.com/icons/facebook-square?style=brands), [Instagram](https://fontawesome.com/icons/instagram-square?style=brands) and [Snapchat](https://fontawesome.com/icons/snapchat-square?style=brands) + [Hand point](https://fontawesome.com/icons/hand-point-right?style=solid) on founders page.
 
 * Colours  
+
 COLOURS IN HERE
-All the colours were handpicked by the kids, (with a little intervention by the developer!) to ensure a happy and fun expression.  
+
+All the colours were handpicked by the kids, (with a little intervention by the developer!) to ensure a happy and fun expression which appeals to kids.
   
-  * Contact bg/text: Jet 383737 / Black 000000
-  * Navigation/footer: Ochre C7782B  
-  * Background: Banana Mania FFEBB9     
+  * Background: Blue Jeans, #37B5FF
+  * Text: Middle Yellow, #FEE73B  
+  * Buttons: Middle Yellow and Plum Web, #FDA6F5   
+  * Stroke: Black, #000000  
 
   Color Scheme from [Coolors](https://coolors.co/);  
-COLOUR SHEME IN HERE
-  ![image](wireframes/colorpallet.png)   
+  ![image](wireframes/color_palett.png)   
 
 ### Features ###  
 
