@@ -145,7 +145,7 @@ All the colours were handpicked by the kids, (with a little intervention by the 
   * Stroke: Black, #000000  
 
   Color Scheme from [Coolors](https://coolors.co/);  
-  ![image](wireframes/color_palett.png)   
+  ![image](assets/wireframes/color_palett.png)   
 
 ### Features ###  
 
