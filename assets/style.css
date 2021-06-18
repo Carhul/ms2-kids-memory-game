@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
+/*----------------Background colour---*/
 .bg-body {
     background-color: #37B5FF;
 }
+/*----------------Font & colour all text---*/
+
+.text-header {
+    color: #FEE73B;
+    font-family: Peralta, Roboto, sans-serif;
+    -webkit-text-stroke: 1px #000;
+}
 
 /*----------------Background image lego-balloons---*/
-
 .img-balloon {
     position: absolute;
     left: -1px;
@@ -15,15 +21,16 @@
 
 #header {
     position: absolute;
-    color: #FEE73B;
     top: 10px;
     left: 20px;
+    font-size: 35px;
 }
 
 #menu-button {
     position: absolute;
     background-color: #FEE73B;
     color: #FDA6F5;
-    top:10px;
-    left: 40px;
+    top: 12px;
+    left: 312px;
+    padding: 9px;
 }
