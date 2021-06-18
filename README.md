@@ -129,7 +129,7 @@ The design of this web application has been created based on the colorful person
 
 PUT FONTS IN HERE
 
-  [Google Fonts](https://fonts.google.com/specimen/Open+Sans): Open Sans, sans-serif.
+  [Google Fonts](https://fonts.google.com/specimen/Peralta#standard-styles): Peralta (fallback Roboto, sans-serif).
 
 * Icons  
 
