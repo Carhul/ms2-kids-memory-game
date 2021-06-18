@@ -96,10 +96,14 @@ Divided into four categories, the website will focus on the following target aud
 Wireframes are made in [Figma](https://www.figma.com/). This is a really nice program to check out different styles and how the final result would look like on different screensizes.  
 
 #### Design for mobile device: ####  
-![mobile](wireframes/mobile/index_desktop.jpg)  
+![mobile_1](assets/wireframes/phone/phone_1.png)  
+![mobile_2](assets/wireframes/phone/phone_2.png)
+![mobile_3](assets/wireframes/phone/phone_3.png)
   
 #### Design for tablet device: ####
-![tablet](wireframes/tablet/index_desktop.jpg)
+![tablet_1](assets/wireframes/tablet/tablet_1.png)
+![tablet_2](assets/wireframes/tablet/tablet_2.png)
+![tablet_2](assets/wireframes/tablet/tablet_3.png)
 
 #### Design for desktop device: ####
 ![desktop](wireframes/desktop/index_desktop.jpg)
