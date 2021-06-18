@@ -106,7 +106,7 @@ Wireframes are made in [Figma](https://www.figma.com/). This is a really nice pr
 ![tablet_2](assets/wireframes/tablet/tablet_3.png)
 
 #### Design for desktop device: ####
-![desktop](wireframes/desktop/index_desktop.jpg)
+![desktop](assets/wireframes/desktop/desktop_1.png)
 
 ### Design ### 
 The design of this web application has been created based on the colorful personality of my kids, and of course; Lego!  
