@@ -1,2 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.bg-body {
+    background-color: #37B5FF;
+}
+
+/*----------------Background image lego-balloons---*/
+
+.img-balloon {
+    position: absolute;
+    left: -1px;
+}
+
+#header {
+    position: absolute;
+    color: #FEE73B;
+    top: 10px;
+    left: 20px;
+}
+
+#menu-button {
+    position: absolute;
+    background-color: #FEE73B;
+    color: #FDA6F5;
+    top:10px;
+    left: 40px;
+}
