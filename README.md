@@ -127,15 +127,13 @@ The design of this web application has been created based on the colorful person
 
 * Fonts  
 
-PUT FONTS IN HERE
-
   [Google Fonts](https://fonts.google.com/specimen/Peralta#standard-styles): Peralta (fallback Roboto, sans-serif).
 
 * Icons  
 
-PUT ICONS IN HERE: Linkdin, insta og face
+  [Fontawsome](https://fontawesome.com/icons?d=gallery&p=2) provided the icon for [Github](https://fontawesome.com/v5.15/icons/github?style=brands).
 
-[Fontawsome](https://fontawesome.com/icons?d=gallery&p=2) provided the icons for [Facebook](https://fontawesome.com/icons/facebook-square?style=brands), [Instagram](https://fontawesome.com/icons/instagram-square?style=brands) and [Snapchat](https://fontawesome.com/icons/snapchat-square?style=brands) + [Hand point](https://fontawesome.com/icons/hand-point-right?style=solid) on founders page.
+In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea.
 
 * Colours  
 
@@ -178,9 +176,9 @@ Git was used for version control by utilizing the GitPod terminal to commit to G
 * [Bootstrap](https://getbootstrap.com/)  
 Bootstrap was used to implement the responsiveness of the site, with bootstrap classes.  
 * [Fontawsome](https://fontawesome.com/)  
-Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.  
+Font Awesome was used to import icons the GitHub icon for UX purposes.  
 * [Google Fonts](https://fonts.google.com/)  
-Google fonts was used to import the fonts XXXXXXXXX into the style.css file.  
+Google fonts was used to import the fonts Peralta, Roboto and Sans-serif into the style.css file.  
 * [Unsplash](https://unsplash.com/)  
 Unsplash was used for all the images on the web application.
 * [Coolors](https://coolors.co/)  
