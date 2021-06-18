@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/*----------------Background colour---*/
+/*----------------Body bg-colour---*/
 .bg-body {
     background-color: #37B5FF;
 }
@@ -17,20 +17,43 @@
 .img-balloon {
     position: absolute;
     left: -1px;
+    top: -1px;
+}
+
+/*----------------Header & menubutton---*/
+.dropdown-toggle::after {
+    content: none;
 }
 
 #header {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    font-size: 35px;
+    position: relative;
+    font-size: 30px;
+    left: -11px;
+}
+    
+@media only screen and (min-width: 600px) {
+    #header {
+    font-size: 70px;
+    }
 }
 
 #menu-button {
-    position: absolute;
+    position: relative;
     background-color: #FEE73B;
     color: #FDA6F5;
+    border: 1px solid #000;
+    padding: 8px;
+    /*
     top: 12px;
     left: 312px;
     padding: 9px;
+    */
+}
+
+@media only screen and (min-width: 600px) {
+    #menu-button {
+    padding: 8px;
+    font-size: 30px;
+    left: -10px;
+    }
 }
