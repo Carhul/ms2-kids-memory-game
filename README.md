@@ -234,13 +234,7 @@ It has been a large number of issues and bugs during the development of this web
 Header and menu button on top of the background balloon image was not as easy as I thought at first. I needed to google a lot, and in the end I had read and watched so much that I decided to give it a try with all the new input - and it worked!
 For this I used [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/), [Youtube](https://www.google.com/search?q=youtube+html+css+text+over+image+responsive&ei=4ebMYJHyAcTJrgSk1oigBw&oq=youtube+html+css+text+over+image+responsive&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgAEBM6CAgAEBYQHhATOggIIRAWEB0QHjoFCCEQoAE6BwghEAoQoAE6BAghEBVQlDNYnsQBYIHHAWgMcAJ4AIABkgGIAYYYkgEEMjcuN5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjR5rzv6KHxAhXEpIsKHSQrAnQQ4dUDCA0&uact=5) and [StackOverflow](https://stackoverflow.com/questions/14715796/css-menu-background-height-and-text-height).
 
-Footer - wouldent stay at the bottom, it was a tiny gap I needed my mentor to help me with. I was missing the class="h-100" in the html, and that combined with the class="footer mt-auto" it was pushed the final bit.  
-
-Contact form - this I needed to remake 3 times. Learned a lot in the proccess but would have made it a fourth time if I had the time before submit. It was not acting as I wanted it to, and make it perfectly align was hard, but I think it turned out ok in the end. I used bootstrap form, jumbotrone, but landed on container. 
-
-Toggler-icon - when trying to make the navbar darker, I removed the navbar-light. Then the toggler-icon disappeared, and the navbar-dark dit not work either as it made the text white. After several attempts and totaly messing up the css code I ended up adding it back on. I want to make it darker for better UX in the future.
-
-Bootstrap script links - After peer code review I was told that the Bootstrap script links need to be at the bottom of the page. But when I do so, Bootstrap overrides the custom css, and the links turn blue. In the future I will figure out how to solve that and make it right. 
+addEventListener in JS file would not work. 
 
 ### Deployment ###  
   Deploying on GitHub pages  
