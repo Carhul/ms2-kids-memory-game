@@ -123,6 +123,12 @@
 
 /*----------------Memory Game - Credit: Web Dev Junkie, https://www.youtube.com/watch?v=bbb9dZotsOc and Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w---*/
 
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 120px;
+}
 
 .reset {
     background-color: #FEE73B;
