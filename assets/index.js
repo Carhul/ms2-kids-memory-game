@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //Card Options
 
+    //Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w
+
     const cardArray = [
         {
             name: "couch",
@@ -51,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "beach",
             img: "assets/memory_box_images/zakaria_ahada_unsplash.jpg"
         } 
-    ]},
+    ]
 
     cardArray.sort(() => 0.5 - Math.random())
 
@@ -107,5 +109,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-
     createMemory()
+})
