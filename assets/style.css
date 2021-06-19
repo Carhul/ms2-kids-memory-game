@@ -2,12 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*----------------Body bg-colour---*/
-.bg-body {
+#body-bg {
     background-color: #37B5FF;
 }
 /*----------------Font & colour all text---*/
 
 .text-header {
+    color: #FEE73B;
+    font-family: Peralta, Roboto, sans-serif;
+    font-size: 27px;
+}
+
+.text-style {
     color: #FEE73B;
     font-family: Peralta, Roboto, sans-serif;
     /*
@@ -30,7 +36,6 @@
 /*----------------Header---*/
 #header {
     position: relative;
-    font-size: 27px;
     margin: 2px;
 }
     
@@ -106,4 +111,12 @@
         font-size: 50px;
         margin: 8px;
     }
+}
+
+/*----------------Play section---*/
+
+#play {
+    position: relative;
+    text-align: center;
+    margin-top: 115%;
 }
