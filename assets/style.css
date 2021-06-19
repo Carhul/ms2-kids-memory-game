@@ -123,11 +123,9 @@
 
 /*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w---*/
 
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    height: 130px;
-    width: 100px;
+#memorygame {
+    display: inherit;
+    text-align: center;
 }
 
 .reset {
@@ -135,8 +133,11 @@
     color: #FDA6F5;
 }
 
+
+
 /*---
 .row {
+    flex-wrap: wrap;
     text-align: center;
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
