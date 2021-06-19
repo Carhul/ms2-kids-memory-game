@@ -53,12 +53,28 @@
     }
 }
 
-/*----------------Play Button---*/
+@media only screen and (min-width: 1200px) {
+    #header {
+        font-size: 89px;
+        margin: 10px;
+    }
+}
+
+/*----------------Play & Contact Button---*/
 
 #play-button {
     position: relative;
     background-color: #FEE73B;
     color: #FDA6F5;
+    border: 1px solid #000;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+#contact-button {
+    position: relative;
+    background-color: #FEE73B;
+    color: #37B5FF;
     border: 1px solid #000;
     padding: 4px;
     border-radius: 4px;
@@ -78,20 +94,9 @@
     }
 }
 
-/*----------------Contact Button---*/
-#contact-button {
-    position: relative;
-    background-color: #FEE73B;
-    color: #37B5FF;
-    border: 1px solid #000;
-    padding: 4px;
-    border-radius: 4px;
-}
-
-@media only screen and (min-width: 600px) {
-    #menu-button {
-    padding: 8px;
-    font-size: 30px;
-    left: -10px;
+@media only screen and (min-width: 1200px) {
+    #play-button, #contact-button {
+        font-size: 50px;
+        margin: 8px;
     }
 }
