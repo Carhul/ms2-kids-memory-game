@@ -10,7 +10,9 @@
 .text-header {
     color: #FEE73B;
     font-family: Peralta, Roboto, sans-serif;
+    /*
     -webkit-text-stroke: 1px #000;
+    */
 }
 
 /*----------------Background image lego-balloons---*/
@@ -65,8 +67,11 @@
 #play-button {
     position: relative;
     background-color: #FEE73B;
+    
     color: #FDA6F5;
+    /*
     border: 1px solid #000;
+    */
     padding: 4px;
     border-radius: 4px;
 }
@@ -75,7 +80,9 @@
     position: relative;
     background-color: #FEE73B;
     color: #37B5FF;
+    /*
     border: 1px solid #000;
+    */
     padding: 4px;
     border-radius: 4px;
 }

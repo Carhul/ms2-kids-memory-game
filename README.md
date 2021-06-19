@@ -149,7 +149,9 @@ All the colours were handpicked by the kids, (with a little intervention by the 
   ![image](assets/wireframes/color_palett.png)   
 
 ### Changes from wireframes to published application ###  
-The menu-button was only supposed to contain play and contact. As I started to work with the application I made it become two buttons for each instead, as the dropdown seemed redundant.
+The menu-button was only supposed to contain play and contact. As I started to work with the application I made it become two buttons for each instead, as the dropdown seemed redundant.  
+
+Stroke on text and border on buttons was removed as it looked more UX-friendly.
 
 ### Features ###  
 
