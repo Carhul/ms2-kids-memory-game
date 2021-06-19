@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardArray = [
         {
             name: "couch",
-            img: "assets/memory_box_images/Optimized-ben_unsplash (1).jpg"
+            img: "assets/memory_box_images/ben_unsplash.jpg"
         },
         {
             name: "couch",
-            img: "assets/memory_box_images/Optimized-ben_unsplash (1).jpg"
+            img: "assets/memory_box_images/ben_unsplash.jpg"
         },
         {
             name: "crossing road",
