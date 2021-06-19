@@ -16,6 +16,7 @@
 .text-style {
     color: #FEE73B;
     font-family: Peralta, Roboto, sans-serif;
+    text-align: center;
     /*
     -webkit-text-stroke: 1px #000;
     */
@@ -72,7 +73,6 @@
 #play-button {
     position: relative;
     background-color: #FEE73B;
-    
     color: #FDA6F5;
     /*
     border: 1px solid #000;
@@ -121,16 +121,25 @@
     margin-top: 115%;
 }
 
-/*----------------Memory Game - Credit: Web Dev Junkie, https://www.youtube.com/watch?v=bbb9dZotsOc---*/
+/*----------------Memory Game - Credit: Web Dev Junkie, https://www.youtube.com/watch?v=bbb9dZotsOc and Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w---*/
 
-.row {
-    text-align: center;
+
+.reset {
+    background-color: #FEE73B;
+    color: #FDA6F5;
 }
 
-.card {
+/*---
+.row {
+    text-align: center;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: block;
+}
+
+.game-card {
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: 2px;
-    background-color: #FEE73B;
+    height: 120px;
+    width: 120px;
+    margin: 1px;
 }
