@@ -54,7 +54,10 @@ document.addEventListener("DOMContentLoaded", () => {
     ]}
 
     const grid = document.querySelector(".grid")
+    const resultDisplay = document.querySelector("#result")
     var cardChosen = []
+    var cardChosenId = []
+    var cardsWon = []
 
     //Create Memory-game board
 
@@ -69,12 +72,38 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     //Check for matches
-    function flipcard() {
-        var cardId = this.getAttribute("data-id")
-        cardChosen
+    function checkForMatch() {
+        var cards = document.querySelectorAll("img")
+        const optionOneId = cardChosenId[0]
+        const optionTwoId = cardChosenId[1]
+        if (cardChosen[0] === cardChosen[1]) {
+            alert("You found a match!")
+            cards[optionOneId].setAttribute("src", "assets/memory_box_images/yellow_box.png")
+            cards[optionTwoId].setAttribute("src", "assets/memory_box_images/yellow_box.png")
+            cardsWon.push(cardChosen)
+        } else {
+            cards [optionOneId].setAttribute("src", "assets/memory_box_images/yellow_box.png")
+            cards [optionTwoId].setAttribute("src", "assets/memory_box_images/yellow_box.png")
+            alert("Sorry, try again!")
+        }
+        cardChosen = []
+        cardChosenId = []
+        resultDisplay.textContent = cardsWon.length
+        if (cardsWon.length === cardArray.length/2) {
+            resultDisplay
+        }
     }
 
     //Flip Card
+    function flipcard() {
+        var cardId = this.getAttribute("data-id")
+        cardChosen.push(cardArray[cardId].name)
+        cardChosenId.push(cardId)
+        this.setAttribute("src", cardArray[cardId].img)
+        if (cardChosen.length === 2) {
+            setTimeout(checkForMatch, 500)
+        }
+    }
 
 
     createMemory()
