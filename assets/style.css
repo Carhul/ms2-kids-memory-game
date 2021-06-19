@@ -20,11 +20,7 @@
     top: -1px;
 }
 
-/*----------------Header & menubutton---*/
-.dropdown-toggle::after {
-    content: none;
-}
-
+/*----------------Header---*/
 #header {
     position: relative;
     font-size: 30px;
@@ -37,17 +33,26 @@
     }
 }
 
-#menu-button {
+/*----------------Play Button---*/
+
+#play-button {
     position: relative;
     background-color: #FEE73B;
     color: #FDA6F5;
     border: 1px solid #000;
     padding: 8px;
-    /*
-    top: 12px;
-    left: 312px;
-    padding: 9px;
-    */
+    border-radius: 4px;
+}
+
+
+/*----------------Contact Button---*/
+#contact-button {
+    position: relative;
+    background-color: #FEE73B;
+    color: #FEE73B;
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 4px;
 }
 
 @media only screen and (min-width: 600px) {

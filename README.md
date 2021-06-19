@@ -9,7 +9,8 @@ Put mockups in here !!
 * [UX](#ux)      
     * [User stories](#user-stories)
     * [Development planes](#development-planes)      
-    * [Design](#design)  
+    * [Design](#design)
+    * [Changes from wireframes to published application](#Changes-from-wireframes-to-published-application)
     * [Features](#features)  
 * [Technologies](#technologies)    
 * [Testing](#testing)  
@@ -85,9 +86,9 @@ Divided into four categories, the website will focus on the following target aud
 
 * Content that is visually appealing with lots of colours that kids appreciate 
 * Content is well structured
-* Easy to navigate the website using the menu and scroll  
+* Easy to navigate the website using the "Play" and "Contact" button and scroll  
 * Easy to read typography
-* Operational links to social media that opens in a new tab  
+* Operational link to GitHub that opens in a new tab  
 * Operational contact form for name, e-mail and message input  
 * The web application is quick to load  
 
@@ -113,15 +114,15 @@ The design of this web application has been created based on the colorful person
   
   As the site is ment for kids in the age between 3 and 8, it was importent that the design reflected that. It`s colorful with nice pictures and easy to navigate and understand. 
 
-  It`s one page, but the menu allows you to jump to the play section or the contact section. 
+  It`s one page, but the "Play" and "Contact" buttons allows you to jump to the section you want. 
 
-  The page starts with the name "Kids memory-game", and the menu button on a nice background photo of two Lego figures.
+  The page starts with the name "Kids memory-game", and the play and contact buttons on a nice background photo of two Lego figures.
 
-  Then to the "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.
+  "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.
 
   It then shows "Thank you for playing" and a nice little lego ice-break image before the contact form on a Lego sandman background. 
   
-  At the end we got social media icons. 
+  At the end we got the GitHub icon. 
 
   All round, the game is looking nice and fun to play. Especially according to my kids!
 
@@ -146,6 +147,9 @@ All the colours were handpicked by the kids, (with a little intervention by the 
 
   Color Scheme from [Coolors](https://coolors.co/);  
   ![image](assets/wireframes/color_palett.png)   
+
+### Changes from wireframes to published application ###  
+The menu-button was only supposed to contain play and contact. As I started to work with the application I made it become two buttons for each instead, as the dropdown seemed redundant.
 
 ### Features ###  
 
