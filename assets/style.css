@@ -193,10 +193,15 @@
     border-radius: 4px;
 }
 
+#reset {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #reset-container {
     position: relative;
     text-align: center;
-    display: grid;
+    display: block;
 }
 
 /*----------------Text Thank you for playing---*/
