@@ -92,11 +92,11 @@ document.addEventListener("DOMContentLoaded", () => {
             cards[optionOneId].removeEventListener("click", flipCard);
             cards[optionTwoId].removeEventListener("click", flipCard);
             cardsCorrect.push(cardsChosen);
-            movesDisplay();
+            movesCount();
         } else {
             cards[optionOneId].setAttribute("src", "assets/memory_box_images/yellow_box.png");
             cards[optionTwoId].setAttribute("src", "assets/memory_box_images/yellow_box.png");
-            movesDisplay();
+            movesCount();
         }
 
         //Clear the cards chosen
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     //Count each move
-    function movesDisplay() {
+    function movesCount() {
         movesDisplay.innerHTML ++;
         moves ++;
     }
