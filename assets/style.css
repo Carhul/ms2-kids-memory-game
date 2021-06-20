@@ -162,15 +162,20 @@
     text-align: center;
 }
 
-.reset {
+/*----------------Score, moves and reset---*/
+
+.inline {
+    display: inline-block;
+    width: 47%;
+    margin-left: 5px;
+}
+
+#reset {
     background-color: #FEE73B;
     color: #FDA6F5;
 }
 
-/*----------------Score, moves and reset---*/
-
-.score-moves-reset {
-    margin: 10px;
+#reset-container {
     position: relative;
     text-align: center;
     display: grid;
