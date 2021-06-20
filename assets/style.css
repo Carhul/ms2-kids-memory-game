@@ -5,7 +5,7 @@
 #body-bg {
     background-color: #37B5FF;
 }
-/*----------------Font & colour all text---*/
+/*----------------Font & colour for headers---*/
 
 .text-header {
     color: #FEE73B;
@@ -40,6 +40,8 @@
         font-size: 89px;
     }
 }
+
+/*----------------Font & colour for normal text---*/
 
 .text-style {
     color: #FEE73B;
