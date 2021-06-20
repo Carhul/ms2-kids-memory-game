@@ -180,3 +180,10 @@
     text-align: center;
     display: grid;
 }
+
+/*----------------Text Thank you for playing---*/
+
+.thank-you {
+    text-align: center;
+    margin: 10px;
+}
