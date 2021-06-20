@@ -13,13 +13,69 @@
     font-size: 27px;
 }
 
+@media only screen and (min-width: 600px) {
+    .text-header {
+        font-size: 45px;
+        margin: 4px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .text-header {
+        font-size: 55px;
+        margin: 6px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .text-header {
+        font-size: 75px;
+        margin: 8px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .text-header {
+        font-size: 89px;
+    }
+}
+
 .text-style {
     color: #FEE73B;
     font-family: Peralta, Roboto, sans-serif;
     text-align: center;
+    font-size: 15px;
     /*
     -webkit-text-stroke: 1px #000;
     */
+}
+
+@media only screen and (min-width: 600px) {
+    .text-style {
+        font-size: 25px;
+        margin: 4px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .text-style {
+        font-size: 30px;
+        margin: 6px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .text-style {
+        font-size: 40px;
+        margin: 8px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .text-style {
+        font-size: 50px;
+        margin: 10px;
+    }
 }
 
 /*----------------Background image lego-balloons---*/
@@ -38,34 +94,6 @@
 #header {
     position: relative;
     margin: 2px;
-}
-    
-@media only screen and (min-width: 600px) {
-    #header {
-        font-size: 45px;
-        margin: 4px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    #header {
-        font-size: 55px;
-        margin: 6px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    #header {
-        font-size: 75px;
-        margin: 8px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    #header {
-        font-size: 89px;
-        margin: 10px;
-    }
 }
 
 /*----------------Play & Contact Button---*/
@@ -113,12 +141,18 @@
     }
 }
 
-/*----------------Play section - text---*/
+/*----------------Play text-section, before Memory Game---*/
 
 #play {
     position: relative;
     text-align: center;
     margin-top: 115%;
+}
+
+@media only screen and (min-width: 1200px) {
+    #play {
+        margin-top: 120%;
+    }
 }
 
 /*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w---*/
