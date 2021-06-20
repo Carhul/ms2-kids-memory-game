@@ -155,7 +155,7 @@
     }
 }
 
-/*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w---*/
+/*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334---*/
 
 #memorygame {
     display: block;
@@ -173,6 +173,7 @@
 #reset, .submit-button {
     background-color: #FEE73B;
     color: #FDA6F5;
+    border-radius: 4px;
 }
 
 #reset-container {
@@ -198,4 +199,46 @@
 
 .align-left {
     display: flex;
+}
+
+/*----------------Footer---*/
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FEE73B;
+    display: block;
+}
+
+.fa-github-square {
+    color: #37B5FF;
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+    .fa-github-square {
+        font-size: 40px;
+        margin: 4px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .fa-github-square {
+        font-size: 50px;
+        margin: 6px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .fa-github-square {
+        font-size: 60px;
+        margin: 8px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .fa-github-square {
+        font-size: 70px;
+    }
 }
