@@ -158,8 +158,22 @@
 /*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334---*/
 
 #memorygame {
-    display: block;
     text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    #memorygame {
+        margin: auto;
+        width: 375px;
+        height: 395px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #memorygame {
+        width: 476px;
+        height: 300px;
+    }
 }
 
 /*----------------Score, moves and reset---*/
