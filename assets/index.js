@@ -1,9 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
+//The game will wait for the DOM to finish loading before running
 
-    //Card Options
+document.addEventListener("DOMContentLoaded", () => {
 
     //Credit for getting the memory-game correct: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334
 
+    //Cards in Memory Game
     const cardArray = [
         {
             name: "couch",
@@ -53,92 +54,95 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "beach",
             img: "assets/memory_box_images/zakaria_ahada_unsplash.jpg"
         } 
-    ]
+    ];
 
     //Sort the cards random
     cardArray.sort(() => 0.5 - Math.random());
 
-    //Constants and variables
+    //Constants
     const memoryGame = document.querySelector("#memorygame");
     const scoreDisplay = document.querySelector("#score");
     const movesDisplay = document.querySelector("#moves");
     const reset = document.getElementById("reset");
     let moves = 0;
 
-    var cardChosen = []
-    var cardChosenId = []
-    var cardsCorrect = []
+    let cardsChosen = []
+    let cardsChosenId = []
+    let cardsCorrect = []
 
     //Create Memory-game board
     function createMemory() {
         for (let i = 0; i < cardArray.length; i++) {
-            var card = document.createElement("img");
+            const card = document.createElement("img");
             card.setAttribute("src", "assets/memory_box_images/yellow_box.png");
+            card.setAttribute("class", "game-card");
             card.setAttribute("data-id", i);
-            card.addEventListener("click", flipcard);
+            card.addEventListener("click", flipCard);
             memoryGame.appendChild(card);
         }
     }
 
     //Check for card-matches
     function checkForMatch() {
-        var cards = document.querySelectorAll("img");
-        const optionOneId = cardChosenId[0]
-        const optionTwoId = cardChosenId[1]
+        const cards = document.querySelectorAll("img");
+        const optionOneId = cardsChosenId[0]
+        const optionTwoId = cardsChosenId[1]
 
-        if (cardChosen[0] === cardChosen[1] && cardChosenId[0] !== cardChosenId[1]) {
+        if (cardsChosen[0] === cardsChosen[1] && cardsChosenId[0] !== cardsChosenId[1]) {
             cards[optionOneId].removeEventListener("click", flipCard);
             cards[optionTwoId].removeEventListener("click", flipCard);
             cardsCorrect.push(cardsChosen);
-            movesCounter();
+            movesDisplay();
         } else {
             cards[optionOneId].setAttribute("src", "assets/memory_box_images/yellow_box.png");
             cards[optionTwoId].setAttribute("src", "assets/memory_box_images/yellow_box.png");
-            movesCounter();
+            movesDisplay();
         }
 
         //Clear the cards chosen
-        cardChosen = []
-        cardChosenId = []
+        cardsChosen = []
+        cardsChosenId = []
 
         //Increase the score for each correct match
         score.textContent = cardsCorrect.length;
 
         //Alert message when all matches are found
         if (cardsCorrect.length === cardArray.length/2) {
-            scoreDisplay.textContent = "Congratulations! You found all the matches!"
+            document.getElementById("win-message").innerHTML = "Congratulations! You found all the matches!";
         }
     }
 
     //Flip Card
-    function flipcard() {
-        var cardId = this.getAttribute("data-id");
-        cardChosen.push(cardArray[cardId].name);
-        cardChosenId.push(cardId);
+    function flipCard() {
+        let cardId = this.getAttribute("data-id");
+        cardsChosen.push(cardArray[cardId].name);
+        cardsChosenId.push(cardId);
 
         //Add image
         this.setAttribute("src", cardArray[cardId].img);
-        if (cardChosen.length === 2) {
-            setTimeout(checkForMatch, 500);
+        if (cardsChosen.length === 2) {
+            setTimeout(checkForMatch, 400);
         }
     }
 
     //Reset the game
     reset.addEventListener("click", resetGame);
     function resetGame() {
+        memoryGame.innerHTML = "";
+        document.getElementById("win-message").innerHTML = "";
         cardArray.sort(() => 0.5 - Math.random());
         createMemory(memoryGame, cardArray);
-        cardsCorrect = []
+        cardsCorrect = [];
         scoreDisplay.innerHTML = 0;
-        cardChosen = []
-        cardChosenId = []
+        cardsChosen = [];
+        cardsChosenId = [];
         movesCount.innerHTML = 0;
         moves = 0;
     }
 
     //Count each move
-    function movesCounter() {
-        movesCount.innerHTML ++;
+    function movesDisplay() {
+        movesDisplay.innerHTML ++;
         moves ++;
     }
 
