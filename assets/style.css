@@ -170,7 +170,7 @@
     margin-left: 5px;
 }
 
-#reset {
+#reset, .submit-button {
     background-color: #FEE73B;
     color: #FDA6F5;
 }
@@ -186,4 +186,16 @@
 .thank-you {
     text-align: center;
     margin: 10px;
+}
+
+/*----------------Image icecream-break---*/
+
+.img-icecream {
+    margin-bottom: 8px;
+}
+
+/*----------------Contact form---*/
+
+.align-left {
+    display: flex;
 }
