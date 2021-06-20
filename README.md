@@ -151,7 +151,12 @@ All the colours were handpicked by the kids, (with a little intervention by the 
 ### Changes from wireframes to published application ###  
 The menu-button was only supposed to contain play and contact. As I started to work with the application I made it become two buttons for each instead, as the dropdown seemed redundant.  
 
-Stroke on text and border on buttons was removed as it looked more UX-friendly.
+Stroke on text and border on buttons was removed as it looked more UX-friendly.  
+
+Reset-button was originally on the same line as Score and Moves. I moved it to be underneath as it looked nicer.
+
+Background image on contact form was to much. When I started to work with it I thought it was distracting and decided to not include it to get a more "clean" look. 
+
 
 ### Features ###  
 
@@ -168,6 +173,7 @@ Features that have been implemented:
 
 Features that will be implemented in the future:  
 * Highscore
+* Increased difficulty
 * Background music / button on-off
 
 ### Technologies ###  
@@ -231,10 +237,18 @@ ALL BUGS IN HERE !!!!!!!!!!!!!!!!!!!!!!!
 
 It has been a large number of issues and bugs during the development of this website, the noteworthy below:  
 
-Header and menu button on top of the background balloon image was not as easy as I thought at first. I needed to google a lot, and in the end I had read and watched so much that I decided to give it a try with all the new input - and it worked!
+Header and menu button on top of the background balloon image was not as easy as I thought at first. I needed to google a lot, and in the end I had read and watched so much that I decided to give it a try in the inspection tool with all the new input - and it worked!
 For this I used [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/), [Youtube](https://www.google.com/search?q=youtube+html+css+text+over+image+responsive&ei=4ebMYJHyAcTJrgSk1oigBw&oq=youtube+html+css+text+over+image+responsive&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgAEBM6CAgAEBYQHhATOggIIRAWEB0QHjoFCCEQoAE6BwghEAoQoAE6BAghEBVQlDNYnsQBYIHHAWgMcAJ4AIABkgGIAYYYkgEEMjcuN5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjR5rzv6KHxAhXEpIsKHSQrAnQQ4dUDCA0&uact=5) and [StackOverflow](https://stackoverflow.com/questions/14715796/css-menu-background-height-and-text-height).
 
-addEventListener in JS file would not work. 
+addEventListener in JS file would not work. Corrected typo in relative path after hours with panic not finding the bug.
+
+The Memory Game section would not stay in place as a "whole box". After lots of google and coffe break without makeing it right I moved on. When I jumped back to take a new look I discovered that I had not added height and width..
+
+The Memory Game would not work correctly. The boxes turn, but they do not turn back, and sometimes one of the cards fly up on the top-left corner for some reason.
+How I solved it: XXXXXXXXXXXXXX
+
+The GitHub icon would not be styled. I eventually understood that to style it I needed to target the fa-github-square directly.
+
 
 ### Deployment ###  
   Deploying on GitHub pages  
