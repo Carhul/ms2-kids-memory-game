@@ -148,3 +148,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     createMemory()
 })
+
+//Contact-form message auto reply
+
+document.getElementById("form").onsubmit = function() {submitMsg()};
+
+function submitMsg() {
+    document.getElementById("message").innerHTML = "Hi! We appreciate your message. We will get back to you before you can spell L E G O!";
+    document.getElementById("form").reset();
+  }
