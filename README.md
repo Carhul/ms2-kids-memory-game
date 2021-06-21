@@ -231,16 +231,14 @@ Peer-code review:
 
 User testing feedback:
 
-### Bugs ###  
-
-ALL BUGS IN HERE !!!!!!!!!!!!!!!!!!!!!!!
-
-It has been a large number of issues and bugs during the development of this website, the noteworthy below:  
+### Bugs ###   
 
 Header and menu button on top of the background balloon image was not as easy as I thought at first. I needed to google a lot, and in the end I had read and watched so much that I decided to give it a try in the inspection tool with all the new input - and it worked!
 For this I used [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/), [Youtube](https://www.google.com/search?q=youtube+html+css+text+over+image+responsive&ei=4ebMYJHyAcTJrgSk1oigBw&oq=youtube+html+css+text+over+image+responsive&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgAEBM6CAgAEBYQHhATOggIIRAWEB0QHjoFCCEQoAE6BwghEAoQoAE6BAghEBVQlDNYnsQBYIHHAWgMcAJ4AIABkgGIAYYYkgEEMjcuN5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjR5rzv6KHxAhXEpIsKHSQrAnQQ4dUDCA0&uact=5) and [StackOverflow](https://stackoverflow.com/questions/14715796/css-menu-background-height-and-text-height).
 
-addEventListener in JS file would not work. Corrected typo in relative path after hours with panic not finding the bug.
+Link from Play and Contact button would not work, solved it with the help of Stack overflow https://stackoverflow.com/questions/17375708/how-to-create-an-html-button-that-acts-like-a-link-to-an-item-on-the-same-page. I had put the a href inside the button, but it obviously had to be the other way around!
+
+The addEventListener in JS file would not work. Corrected typo in relative path after hours with panic not finding the bug.
 
 The Memory Game section would not stay in place as a "whole box". After lots of google and coffe break without makeing it right I moved on. When I jumped back to take a new look I discovered that I had not added height and width..
 
