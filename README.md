@@ -298,8 +298,11 @@ The GitHub icon would not be styled. I eventually understood that to style it I 
   Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting").
 
 ### Credit ###  
+
 Content and text used in this website is written by me in collaboration with my kids and husband, Leon, Mila and Thomas.  
+
 #### Setup and text in README.md ####  
+
 I have used the same inspiration as I did in MS1 for the readme file. They where awsome then and still are! So thank you to:
 
 * [byllsa](https://github.com/byIlsa/Aloy-from-outcast-to-heroine/blob/master/README.md) and [Miranda](https://github.com/mkthewlis/Milestone-Project-1) for clear, neat and inspiring readme files.
@@ -307,8 +310,6 @@ I have used the same inspiration as I did in MS1 for the readme file. They where
 * [rebeccatraceyt](https://github.com/rebeccatraceyt) for an exceptional readme file, and and especially the deployment section - who is a copy/paste on Forking the respository and Creating a Clone.   
   
 #### Images ####  
-
-IMAGES IN HERE !!!!
 
 Background images:  
 
@@ -322,7 +323,11 @@ Memorybox images:
   [Zakaria Ahada - Legoman on the beach](https://unsplash.com/s/photos/lego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
   [Daniel Cheung - Legoman painting](https://unsplash.com/s/photos/lego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
   [Inês Pimentel - Lego unicorn](https://unsplash.com/s/photos/lego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
-  [Hello I'm Nik - Lego chicken](https://unsplash.com/s/photos/lego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  [Hello I'm Nik - Lego chicken](https://unsplash.com/s/photos/lego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
+
+Memory Game:  
+
+Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334
     
 ### Acknowledgements ###
 
