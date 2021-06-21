@@ -149,11 +149,28 @@ document.addEventListener("DOMContentLoaded", () => {
     createMemory()
 })
 
-//Contact-form message auto reply
+//Contact-form 
 
-document.getElementById("form").onsubmit = function() {submitMsg()};
+//document.getElementById("form").onsubmit = function() {submitMsg()};
 
-function submitMsg() {
-    document.getElementById("message").innerHTML = "Hi! We appreciate your message. We will get back to you before you can spell L E G O!";
-    document.getElementById("form").reset();
-  }
+//function submitMsg() {
+    //document.getElementById("message").innerHTML = "Hi! We appreciate your message. We will get back to you before you can spell L E G O!";
+    //document.getElementById("form").reset();
+  //}
+
+  function sendMail(contactForm) {
+    emailjs.send("service_g3chatm", "Memorygame", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "project_request": contactForm.projectsummary.value
+    })
+        .then(
+            function (response) {
+                console.log("SUCCESS", response);
+            },
+            function (error) {
+                console.log("FAILED", error);
+            }
+        );
+    return false;  // To block from loading a new page
+};

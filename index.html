@@ -8,6 +8,13 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+   <script type='text/javascript'>
+   (function(){
+      emailjs.init('<user_SI4fZxvdtcmTXNnQhJGeJ>');
+   })();
+</script>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
@@ -60,7 +67,7 @@
     <p class="text-header">Have a question for us?</p>
 
     <div class="container">
-        <form id="contact-form action="#" method="GET">
+        <form id="form" action="#" method="GET">
             <div class="mb-3">
                 <label for="name" class="text-style align-left">Name</label>
                     <input type="text" class="form-control" id="name" required>
@@ -74,6 +81,7 @@
                 <input type="text" class="form-control" id="message" required>
             </div>
             <button type="submit" class="text-style submit-button">Submit</button>
+            <p id="message"></p>
         </form>
     </div>
 
@@ -90,5 +98,6 @@
     <!----------------JavaScript--->
 
 <script src="assets/index.js"></script>
+
 </body>
 </html>
