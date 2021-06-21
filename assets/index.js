@@ -159,18 +159,18 @@ document.addEventListener("DOMContentLoaded", () => {
   //}
 
   function sendMail(contactForm) {
-    emailjs.send("service_g3chatm", "Memorygame", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
-    })
-        .then(
-            function (response) {
-                console.log("SUCCESS", response);
-            },
-            function (error) {
-                console.log("FAILED", error);
-            }
-        );
+      emailjs.send("service_g3chatm", "ms2-kids-memory-game", {
+          "from_name": contactForm.name.value,
+          "from_email": contactForm.emailaddress.value,
+          "message_request": contactForm.message.value
+      })
+      .then(
+        function (response) {
+            alert("Hi! We appreciate your message. We will get back to you before you can spell L E G O!", response);
+        },
+        function (error) {
+            alert("Ups! Something went wrong: ", error);
+        }
+    );
     return false;  // To block from loading a new page
 };

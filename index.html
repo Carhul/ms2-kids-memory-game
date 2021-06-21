@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Online memory game with lego theme">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+   
+    <!----------------EmailJS link--->
    <script type='text/javascript'>
-   (function(){
-      emailjs.init('<user_SI4fZxvdtcmTXNnQhJGeJ>');
+   (function() {
+      emailjs.init("user_SI4fZxvdtcmTXNnQhJGeJ");
    })();
 </script>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <title>Kids Memory</title>
 </head>
+
 <body id="body-bg">
 
     <!----------------Kids Memory header, Play & Contact buttons and bg-image--->
@@ -67,14 +70,14 @@
     <p class="text-header">Have a question for us?</p>
 
     <div class="container">
-        <form id="form" action="#" method="GET">
+        <form id="form" onsubmit="return sendMail(this);">
             <div class="mb-3">
                 <label for="name" class="text-style align-left">Name</label>
                     <input type="text" class="form-control" id="name" required>
             </div>
             <div class="mb-3">
                 <label for="email" class="text-style align-left">Email address</label>
-                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" required>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
             </div>
             <div class="mb-3">
                 <label for="message" class="text-style align-left">Message</label>
