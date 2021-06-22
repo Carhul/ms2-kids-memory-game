@@ -94,7 +94,7 @@ Divided into four categories, the website will focus on the following target aud
 
 ### Skelton ###  
   
-Wireframes are made in [Figma](https://www.figma.com/). This is a really nice program to check out different styles and how the final result would look like on different screensizes.  
+Wireframes are made in [Figma](https://www.figma.com/). This is a really nice program to check out different styles and how the final result would look like on different screensizes. This is used instead of Balsamiq on recomendation from my mentor.
 
 #### Design for mobile device: ####  
 ![mobile_1](assets/wireframes/phone/phone_1.png)  
@@ -296,6 +296,10 @@ The GitHub icon would not be styled. I eventually understood that to style it I 
   8. Press Enter. Your local clone will be created.  
 
   Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting").
+
+#### About Git Commit ####  
+
+As I was already half way on this project when received feedback from my MS1, I have done the git commit wrong until this point. From late evening on June 22, the git commit should be as asked in feedback. 
 
 ### Credit ###  
 
