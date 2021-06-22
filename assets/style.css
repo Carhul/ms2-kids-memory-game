@@ -82,21 +82,18 @@
 }
 
 /*----------------Background image lego-balloons---*/
-.img-balloon {
-    position: absolute;
-    left: -1px;
-    top: -1px;
-}
-/*----------------Header, play & contact buttons container---*/
 
-.container {
+.balloon-bg {
+    background-image: url("../assets/background_images/lego_party_unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     text-align: center;
 }
 
 /*----------------Header---*/
 #header {
-    position: relative;
-    margin: 2px;
+    padding: 10px;
 }
 
 /*----------------Play & Contact Button---*/
