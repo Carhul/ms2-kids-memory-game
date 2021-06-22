@@ -10,34 +10,32 @@
 .text-header {
     color: #FEE73B;
     font-family: Peralta, Roboto, sans-serif;
-    font-size: 27px;
+    font-size: 25px;
     text-align: center;
+    margin: auto;
 }
 
 @media only screen and (min-width: 600px) {
     .text-header {
-        font-size: 45px;
-        margin: 4px;
+        font-size: 35px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .text-header {
-        font-size: 55px;
-        margin: 6px;
+        font-size: 45px;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .text-header {
-        font-size: 75px;
-        margin: 8px;
+        font-size: 60px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .text-header {
-        font-size: 89px;
+        font-size: 65px;
     }
 }
 
@@ -47,7 +45,8 @@
     color: #FEE73B;
     font-family: Peralta, Roboto, sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    margin-bottom: 8px;
     /*
     -webkit-text-stroke: 1px #000;
     */
@@ -55,28 +54,28 @@
 
 @media only screen and (min-width: 600px) {
     .text-style {
-        font-size: 25px;
+        font-size: 20px;
         margin: 4px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .text-style {
-        font-size: 30px;
+        font-size: 25px;
         margin: 6px;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .text-style {
-        font-size: 40px;
+        font-size: 35px;
         margin: 8px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .text-style {
-        font-size: 50px;
+        font-size: 40px;
         margin: 10px;
     }
 }
@@ -91,9 +90,10 @@
     text-align: center;
 }
 
-/*----------------Header---*/
-#header {
-    padding: 10px;
+/*----------------Header, play & contact button - wraper to push a little down from the top---*/
+
+.wraper {
+    padding: 11px;
 }
 
 /*----------------Play & Contact Button---*/
@@ -141,10 +141,22 @@
     }
 }
 
+/*----------------Text before Memory Game---*/
+
+#play {
+    margin-top: 5px;
+}
+
 /*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334---*/
+
+.game-card {
+    border-radius: 4px;
+    margin: 3px;
+}
 
 #memorygame {
     text-align: center;
+    border-radius: 4px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -174,6 +186,7 @@
     background-color: #FEE73B;
     color: #FDA6F5;
     border-radius: 4px;
+    text-align: center;
 }
 
 #reset {

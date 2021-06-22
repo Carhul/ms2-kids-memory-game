@@ -27,7 +27,7 @@
     <!----------------Kids Memory header, Play & Contact buttons and bg-image--->
 
     <div class="balloon-bg">
-        <div>
+        <div class="wraper">
             <header class="text-header" id="header">Kids Memory</header>
             <a href="#play"><button class="text-style" id="play-button" type="button">Play</button></a>
             <a href="#contact-form"><button class="text-style" id="contact-button" type="button">Contact</button></a>
@@ -40,16 +40,23 @@
         <p class="text-header">PLAY</p>
         <p class="text-style">How good are your memory?</p>
         <p class="text-style">Push the boxes and see if you can find a match!</p>
-    </div>
 
     <!----------------Memory Game--->
 
-    <div class="col">
-    <section id="memorygame"></section>
+    <div>
+        <div id="memorygame"></div>
     </div>
+
+    <!--
+        <div class="col">
+        <section id="memorygame"></section>
+        </div>
+    </div>
+    --->
 
    <!----------------Score, moves and reset--->
 
+   <div>
     <p class="text-style" id="win-message"></p>
 
     <p class="text-style inline">Score: <span id="score">0</span></p>        
@@ -59,6 +66,7 @@
     </div>
 
     <p class="text-header thank-you">Thank you for playing!</p>
+    </div>
 
     <!----------------Image of lego icecream-break--->
 
