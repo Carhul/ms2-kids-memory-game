@@ -141,20 +141,6 @@
     }
 }
 
-/*----------------Play text-section, before Memory Game---*/
-
-#play {
-    position: relative;
-    text-align: center;
-    margin-top: 115%;
-}
-
-@media only screen and (min-width: 1200px) {
-    #play {
-        margin-top: 120%;
-    }
-}
-
 /*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334---*/
 
 #memorygame {
