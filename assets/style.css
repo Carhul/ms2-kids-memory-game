@@ -167,6 +167,13 @@
     }
 }
 
+/*----------------Win message---*/
+
+#win-message {
+    color: #FDA6F5;
+    background-color: #FEE73B;
+}
+
 /*----------------Score, moves and reset---*/
 
 .score_moves_wrap {
