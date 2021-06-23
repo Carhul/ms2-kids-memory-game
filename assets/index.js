@@ -63,8 +63,9 @@ document.addEventListener("DOMContentLoaded", () => {
     //Constants
     const memoryGame = document.querySelector("#memory-game");
     const scoreDisplay = document.querySelector("#score");
-    const movesDisplay = document.querySelector("#moves");
+    const movesCount = document.querySelector("#moves");
     const reset = document.getElementById("reset");
+    let moves = 0;
 
     let cardsChosen = []
     let cardsChosenId = []
@@ -92,11 +93,11 @@ document.addEventListener("DOMContentLoaded", () => {
             cards[optionOneId].removeEventListener("click", flipCard);
             cards[optionTwoId].removeEventListener("click", flipCard);
             cardsCorrect.push(cardsChosen);
-            movesCount();
+            movesCounter();
         } else {
             cards[optionOneId].setAttribute("src", "assets/memory_box_images/yellow_box.png");
             cards[optionTwoId].setAttribute("src", "assets/memory_box_images/yellow_box.png");
-            movesCount();
+            movesCounter();
         }
 
         //Clear the cards chosen
@@ -141,8 +142,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     //Count each move
-    function movesCount() {
-        movesDisplay.innerHTML ++;
+    function movesCounter() {
+        movesCount.innerHTML ++;
         moves ++;
     }
 
