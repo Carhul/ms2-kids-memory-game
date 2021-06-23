@@ -163,23 +163,14 @@
     #memorygame {
         margin: auto;
         width: 375px;
-        height: 395px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    #memorygame {
-        width: 476px;
-        height: 300px;
+        height: 420px;
     }
 }
 
 /*----------------Score, moves and reset---*/
 
-.inline {
-    display: inline-block;
-    width: 47%;
-    margin-left: 5px;
+.score_moves_wrap {
+    text-align: center;
 }
 
 #reset, .submit-button {

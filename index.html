@@ -36,10 +36,12 @@
 
     <!----------------Text before Memory Game--->
 
-    <div id="play">
+<div id="play">
+    <div>
         <p class="text-header">PLAY</p>
         <p class="text-style">How good are your memory?</p>
         <p class="text-style">Push the boxes and see if you can find a match!</p>
+    </div>
 
     <!----------------Memory Game--->
 
@@ -47,26 +49,27 @@
         <div id="memorygame"></div>
     </div>
 
-    <!--
-        <div class="col">
-        <section id="memorygame"></section>
-        </div>
-    </div>
-    --->
-
    <!----------------Score, moves and reset--->
 
    <div>
     <p class="text-style" id="win-message"></p>
+   </div>
 
-    <p class="text-style inline">Score: <span id="score">0</span></p>        
-    <p class="text-style inline">Moves: <span id="moves">0</span></p>
-    <div id="reset-container">
-        <button id="reset" class="text-style reset" type="reset">Reset</button>
-    </div>
+    <div>
+        <div class="score_moves_wrap">
+           <p class="text-style">Score: <span id="score">0</span></p>        
+           <p class="text-style">Moves: <span id="moves">0</span></p>
+        </div>
+        <div id="reset-container">
+          <button id="reset" class="text-style reset" type="reset">Reset</button>
+        </div>
+    </div> 
 
+    <div>
     <p class="text-header thank-you">Thank you for playing!</p>
     </div>
+  </div>
+
 
     <!----------------Image of lego icecream-break--->
 
