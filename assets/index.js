@@ -1,84 +1,70 @@
+//Credit for getting the memory-game correct: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w, Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334
+// and dandavies23 / smoothie-moves on GitHub: https://github.com/dandavies23/smoothie-moves/blob/master/game.html
+
+//Lego cards in Memory Game - In the future more cards could be added
+    const LEGO_CARDS_LIST = [ //cardArray
+        {
+            name: "couch",
+            img: "assets/memory_box_images/ben_unsplash.jpg"
+        },
+        {
+            name: "crossing road",
+            img: "assets/memory_box_images/daniel_cheung_unsplash.jpg"
+        },
+        {
+            name: "painting",
+            img: "assets/memory_box_images/daniel_cheung2_unsplash.jpg"
+        },
+        {
+            name: "chicken",
+            img: "assets/memory_box_images/hello_im_nik_unsplash.jpg"
+        },
+        {
+            name: "unicorn",
+            img: "assets/memory_box_images/ines_pimentel_unsplash.jpg"
+        },
+        {
+            name: "beach",
+            img: "assets/memory_box_images/zakaria_ahada_unsplash.jpg"
+        }
+    ];
+
 //The game will wait for the DOM to finish loading before running
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    //Credit for getting the memory-game correct: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334
-
-    //Cards in Memory Game
-    const cardArray = [
-        {
-            name: "couch",
-            img: "assets/memory_box_images/ben_unsplash.jpg"
-        },
-        {
-            name: "couch",
-            img: "assets/memory_box_images/ben_unsplash.jpg"
-        },
-        {
-            name: "crossing road",
-            img: "assets/memory_box_images/daniel_cheung_unsplash.jpg"
-        },
-        {
-            name: "crossing road",
-            img: "assets/memory_box_images/daniel_cheung_unsplash.jpg"
-        },
-        {
-            name: "painting",
-            img: "assets/memory_box_images/daniel_cheung2_unsplash.jpg"
-        },
-        {
-            name: "painting",
-            img: "assets/memory_box_images/daniel_cheung2_unsplash.jpg"
-        },
-        {
-            name: "chicken",
-            img: "assets/memory_box_images/hello_im_nik_unsplash.jpg"
-        },
-        {
-            name: "chicken",
-            img: "assets/memory_box_images/hello_im_nik_unsplash.jpg"
-        },
-        {
-            name: "unicorn",
-            img: "assets/memory_box_images/ines_pimentel_unsplash.jpg"
-        },
-        {
-            name: "unicorn",
-            img: "assets/memory_box_images/ines_pimentel_unsplash.jpg"
-        },
-        {
-            name: "beach",
-            img: "assets/memory_box_images/zakaria_ahada_unsplash.jpg"
-        },
-        {
-            name: "beach",
-            img: "assets/memory_box_images/zakaria_ahada_unsplash.jpg"
-        } 
-    ];
-
-    //Sort the cards random
-    cardArray.sort(() => 0.5 - Math.random());
-
-    //Constants
-    const memoryGame = document.querySelector("#memorygame");
-    const scoreDisplay = document.querySelector("#score");
-    const movesDisplay = document.querySelector("#moves");
-    const reset = document.getElementById("reset");
-    let moves = 0;
-
+    //Variables and empty arrays
+    let grid = document.querySelector(".memory-game");  //memorygame = now grid
     let cardsChosen = []
     let cardsChosenId = []
     let cardsCorrect = []
+    let rankMessage = "";
+    let finalScore = 0;
+    let turns = 0;
+    var score = 0;
+
+    // Doubles up cards to generate pairs
+    let legoCardsList = [...LEGO_CARDS_LIST, ...LEGO_CARDS_LIST]
+    let intervalRef = null;
+
+    // Defines elements on page
+    let alertDisplay = document.querySelector("#win-message")
+    let alertDisplay = document.querySelector("#result")
+    let movesDisplay = document.querySelector("#moves")
+    let resetButton = document.querySelector("#reset)"
+    resetButton.addEventListener("click");
 
     //Create Memory-game board
     function createMemory() {
-        for (let i = 0; i < cardArray.length; i++) {
-            const card = document.createElement("img");
+    //Sort the cards random
+    legoCardsList.sort(() => 0.5 - Math.random())
+        for (let i = 0; i < legoCardsList.length; i++) {
+            let card = document.createElement("img");
             card.setAttribute("src", "assets/memory_box_images/yellow_box.png");
-            card.setAttribute("class", "game-card");
             card.setAttribute("data-id", i);
-            card.addEventListener("click", flipCard);
-            memoryGame.appendChild(card);
+            card.setAttribute("class", "game-card");
+            card.addEventListener("click", onTumblerClick); //onTumblerClick = flipCard
+            grid.appendChild(card);
         }
     }
 
