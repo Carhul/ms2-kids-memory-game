@@ -240,10 +240,13 @@ Link from Play and Contact button would not work, solved it with the help of Sta
 
 The addEventListener in JS file would not work. Corrected typo in relative path after hours with panic not finding the bug.
 
-The Memory Game section would not stay in place as a "whole box". After lots of google and coffe break without makeing it right I moved on. When I jumped back to take a new look I discovered that I had not added height and width..
+The Memory Game section would not stay in place as a "whole box". After lots of google and coffe break without making it right I moved on. When I jumped back to take a new look I discovered that I had not added height and width..
 
-The Memory Game would not work correctly. The boxes turn, but they do not turn back, and sometimes one of the cards fly up on the top-left corner for some reason.
-How I solved it: XXXXXXXXXXXXXX
+The Memory Game would not work correctly. The boxes turn, but they do not turn back, and sometimes one of the cards fly up on the top-left corner for some reason.  
+  
+  How I solved it: After one and a half day of trying to figure out the issue using google, youtube and looking at other peoples code I was not getting any wiser on why it did not work. I asked my mentor as I had my middle call. She recomend to look some more on other peoples code, so I did. After another day of looking and trying out different methods from others, I lost track of what I was doing, and decided to use version controll and go back for my original code. When copy-paste that in and reload - it worked..! I really dont know why it did not work in the first place, and this is really my bigges bug until now. But the feeling when it worked was priceless!  
+
+Moves count wouldent go to zero when pushed on reset button. Changed the variables names to the same as [Michelle3334](https://github.com/Michelle3334/freaky_memory/blob/master/assets/js/script.js). Probably just a typo. 
 
 The GitHub icon would not be styled. I eventually understood that to style it I needed to target the fa-github-square directly.
 
