@@ -160,7 +160,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-    #memorygame {
+    #memory-game {
         margin: auto;
         width: 375px;
         height: 420px;
