@@ -173,7 +173,7 @@
     text-align: center;
 }
 
-#reset, .submit-button {
+#reset, #submit-button {
     background-color: #FEE73B;
     color: #FDA6F5;
     border-radius: 4px;
