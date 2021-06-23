@@ -154,13 +154,13 @@
     margin: 3px;
 }
 
-.memorygame {
+#memory-game {
     text-align: center;
     border-radius: 4px;
 }
 
 @media only screen and (min-width: 600px) {
-    .memorygame {
+    #memorygame {
         margin: auto;
         width: 375px;
         height: 420px;
