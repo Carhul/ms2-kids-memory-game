@@ -224,21 +224,6 @@
     }
 }
 
-/*----------------Game icons container---*/
-
-.game-icons {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/*----------------Game icons style---*/
-
-.fa-gamepad {
-    color: #FDA6F5;
-    font-size: 40px;
-    padding: 0 25px;
-}
-
 /*----------------Image icecream-break---*/
 
 .img-icecream {
