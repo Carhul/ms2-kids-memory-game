@@ -153,26 +153,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Contact-form 
 
-//document.getElementById("form").onsubmit = function() {submitMsg()};
+const form = document.getElementById("contact-form");
 
-//function submitMsg() {
-    //document.getElementById("message").innerHTML = "Hi! We appreciate your message. We will get back to you before you can spell L E G O!";
-    //document.getElementById("form").reset();
-  //}
+form.addEventListener("submit", function (event) {
+    event.preventDefault()
+    const name = form.name.value;
+    const email = form.email.value;
+    const message = form.message.value;
+    const modal = document.getElementById("mail-modal")
 
-  function sendMail(contactForm) {
-      emailjs.send("service_g3chatm", "ms2-kids-memory-game", {
-          "from_name": contactForm.name.value,
-          "from_email": contactForm.emailaddress.value,
-          "message_request": contactForm.message.value
-      })
-      .then(
+    emailjs.send("service_g3chatm", "KidsMemory", {
+
+        from_name: name,
+        from_email: email,
+        message: message
+        
+    })
+    .then(
         function (response) {
-            alert("Hi! We appreciate your message. We will get back to you before you can spell L E G O!", response);
+            console.log("SUCCESS", response);
+            modal.style.display = "block";
+            $("#close-button").click(function () {
+                location.reload();
+            });
+
         },
         function (error) {
-            alert("Ups! Something went wrong: ", error);
+            console.log("FAILED", error);
         }
     );
-    return false;  // To block from loading a new page
-};
+})
