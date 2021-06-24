@@ -30,6 +30,7 @@
 @media only screen and (min-width: 992px) {
     .text-header {
         font-size: 60px;
+        padding-top: 10px;
     }
 }
 
@@ -150,6 +151,12 @@
 
 /*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334---*/
 
+@media only screen and (min-width: 992px) {
+    .game-wrap {
+        padding-top: 30px;
+    }
+}
+
 .game-card {
     border-radius: 4px;
     margin: 3px;
@@ -181,6 +188,12 @@
     text-align: center;
 }
 
+@media only screen and (min-width: 992px) {
+    .score_moves_wrap {
+        padding: 10px;
+    }
+}
+
 #reset, #submit-button {
     background-color: #FEE73B;
     color: #FDA6F5;
@@ -204,6 +217,12 @@
 .thank-you {
     text-align: center;
     margin: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    .thank-you {
+        padding-top: 30px;
+    }
 }
 
 /*----------------contact-section---*/
