@@ -195,6 +195,8 @@ Google fonts was used to import the fonts Peralta, Roboto and Sans-serif into th
 Unsplash was used for all the images on the web application.
 * [Coolors](https://coolors.co/)  
 Coolors was used to make the colorpalett.  
+* [Ezgif](https://ezgif.com/resize)  
+Ezgif was used to resize the images in the Memory Game to avoid stretch.
 * [Multi Device Mockup Generator](http://techsini.com/multi-mockup/index.php)  
 Multi device mockup was used in order to see the responsive design throughout the process and to generate mockup image at the beginning of the readme file.  
 * [The W3C Markup Validation Service](https://validator.w3.org/)
