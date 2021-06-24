@@ -160,7 +160,6 @@ form.addEventListener("submit", function (event) {
     const name = form.name.value;
     const email = form.email.value;
     const message = form.message.value;
-    const modal = document.getElementById("mail-modal")
 
     emailjs.send("service_g3chatm", "KidsMemory", {
 
@@ -171,8 +170,7 @@ form.addEventListener("submit", function (event) {
     })
     .then(
         function (response) {
-            console.log("SUCCESS", response);
-            modal.style.display = "block";
+            alert("Hi! We appreciate your message. We will get back to you before you can spell L E G O!", response);
             $("#close-button").click(function () {
                 location.reload();
             });
