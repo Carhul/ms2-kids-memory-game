@@ -146,7 +146,6 @@
 
 #play {
     margin-top: 5px;
-    height: 100vh;
 }
 
 /*----------------Memory Game - Credit: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334---*/
@@ -240,13 +239,6 @@
     padding: 0 25px;
 }
 
-/*----------------contact-section---*/
-
-#contact-section {
-    height: 100vh;
-    position: relative;
-}
-
 /*----------------Image icecream-break---*/
 
 .img-icecream {
@@ -268,7 +260,6 @@ footer {
     background-color: #FEE73B;
     position: absolute;
     width: 100%;
-    bottom: 0;
 }
 
 .fa-github-square {
