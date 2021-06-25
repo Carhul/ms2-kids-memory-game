@@ -32,11 +32,20 @@ Put mocups here!!!!!
     The game is absolutely fun for the Kids!  
 5.  As a user I want to have the ability to contact the developer for questions.  
     
-    The contact form works as it should. It alerts when submit is pushed, and the user also receives an email with confirmation.
+    The contact form looks nice, with possibility to contact after input and submit, clear form or push Play again! 
 
     
 
 ### Manual Testing ###  
+
+* Buttons:  
+    * Play and play again button is both working and takes the user to the play section.  
+    * Contact button is working, takes the user to the contact section.  
+    * Reset button is working. Resets the game.  
+    * Submit button did not work. It should send an email to the devloper and alert the user on screen, also send an email to the user with confirmation.  
+    ![submit alert error 501](assets/test-files/manuel/submit_alert_error_501.png)  
+    After use of slack and watching the CI learning material again I removed the POST method. The submit button now function.  
+    ![submit alert ok](assets/test-files/manuel/submit_alert.png)  
 
 ### Automated Testing ###  
 
