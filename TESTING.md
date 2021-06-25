@@ -49,7 +49,8 @@ Put mocups here!!!!!
     Email to user:  
     ![email to user](assets/test-files/manuel/email_to_user.png)  
     Email to developer:  
-    ![email to developer](assets/test-files/manuel/email_to_developer.png)
+    ![email to developer](assets/test-files/manuel/email_to_developer.png)  
+    * Clear Form button should clear the form if the user wants to send another message or have written something wrong and wants to start over (it does not clear after submit as it should stay as a reminder of the message sent). When pushed it clears.
 
 * Kids Memory game
 
