@@ -105,7 +105,8 @@ MORE TESTING HERE ON HTML
 Style.CSS first validate had no error but twenty-six warnings:  
 ![css validate 1](assets/test-files/automated/css_validate_1.png)
 ![css validate warnings](assets/test-files/automated/css_warnings_1.png)  
-The border colour and the background colour are the same as I thought I could see some white when not applied, but will remove this again.
+The border colour and the background colour are the same as I thought I could see some white when not applied, but will remove this again. Second CSS validate:  
+![css validate 2](assets/test-files/automated/css_validate_2.png)
 
 
 ### User Testing ###
