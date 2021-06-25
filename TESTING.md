@@ -110,8 +110,7 @@ The border colour and the background colour are the same as I thought I could se
 Regarding the two final warnings I found the following statement at [StackOverflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error): "You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, just some information for you". So I don`t do anything more about them for now.  
 
 Index.js validation had no error, but thirty-three warnings:  
-![js validate](assets/test-files/automated/js_validation_1.png)
-
-
+![js validate](assets/test-files/automated/js_validation_1.png).  
+To clear the semicolon warnings, the semicolons where added. Credit for removing the remaining warnings about "is only available in ES6 (use 'esversion: 6" goes to Aukje - Red Pepper_Alumni on [Slack](https://app.slack.com/client/T0L30B202/search/search-559fc759-a216-4e4e-95ec-162e50113a71/thread/C7HD37Q1F-1616403659.141200). I added the line //jshint esversion: 6 to the index.js file and it worked perfect!
 
 ### User Testing ###
