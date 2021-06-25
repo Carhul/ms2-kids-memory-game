@@ -97,6 +97,7 @@ After trying to remove them I got this on second attempt:
 ![html validate 2](assets/test-files/automated/html_validate_2.png)  
 Then after understanding how to correctly comment in the HTML I got this:  
 ![html validate 3](assets/test-files/automated/html_validate_3.png).  
-The issue on line 32, 33 and 99 is a challenge, as I put it the other way around in the first place, but then got a bug. Solved the bug by switch place on button and a href. 
+The issue on line 32, 33 and 99 is a challenge, as I put it the other way around in the first place, but then got a bug. Solved the bug by switch place on button and a href. I cleaned up the last error by removing aria-describedby="emailHelp", as this is something I first thought to include but later removed but forgot to remove all of it:  
+![html validate 4](assets/test-files/automated/html_validate_4.png)
 
 ### User Testing ###
