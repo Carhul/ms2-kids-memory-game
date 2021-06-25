@@ -68,7 +68,14 @@ Landing-page with header and buttons for Play and Contact:
 ![iphone6/7/8](assets/test-files/manuel/landing_page/iphone6_7_8.png)  
 ![iphonex](assets/test-files/manuel/landing_page/iphonex.png)  
 ![ipad](/workspace/ms2-kids-memory-game/assets/test-files/manuel/landing_page/ipad.png)  
-![ipadpro](assets/test-files/manuel/landing_page/ipadpro.png)
+![ipadpro](assets/test-files/manuel/landing_page/ipadpro.png)  
+
+Play section:  
+![pixel2](assets/test-files/manuel/play_section/pixel2.png)
+![iphone6/7/8](assets/test-files/manuel/play_section/iphone6_7_8.png)
+![iphonex](assets/test-files/manuel/play_section/iphonex.png)
+![ipad](assets/test-files/manuel/play_section/ipad.png)
+![ipadpro](assets/test-files/manuel/play_section/ipadpro.png)
 
 
 ### Automated Testing ###  
