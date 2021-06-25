@@ -1,7 +1,7 @@
 # Kids memory-game #
 _How good are your memory?_
 
-Put mockups in here !! 
+![mockup](assets/test-files/mockups/mocup2.png) 
 
 ## Table of contents ##
 

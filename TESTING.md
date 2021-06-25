@@ -12,7 +12,7 @@
 3. [Automated Testing](#Automated-Testing)  
 4. [User Testing](#User-Testing)  
 
-Put mocups here!!!!!  
+![mockup](assets/test-files/mockups/mocup2.png)  
 
 ---
 
@@ -60,7 +60,10 @@ Put mocups here!!!!!
   ![win message](assets/test-files/manuel/win_message.png)  
 
 * GitHub link on footer  
-Opens in a new tab and takes the user to the developers GitHub page as it should.
+Opens in a new tab and takes the user to the developers GitHub page as it should.  
+
+* Responsiveness  
+
 
 ### Automated Testing ###  
 
