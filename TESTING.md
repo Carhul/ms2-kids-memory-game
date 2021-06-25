@@ -107,7 +107,11 @@ Style.CSS first validate had no error but twenty-six warnings:
 ![css validate warnings](assets/test-files/automated/css_warnings_1.png)  
 The border colour and the background colour are the same as I thought I could see some white when not applied, but will remove this again. Second CSS validate:  
 ![css validate 2](assets/test-files/automated/css_validate_2.png)  
-Regarding the two final warnings I found the following statement at [StackOverflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error): "You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, just some information for you". So I don`t do anything more about them for now.
+Regarding the two final warnings I found the following statement at [StackOverflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error): "You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, just some information for you". So I don`t do anything more about them for now.  
+
+Index.js validation had no error, but thirty-three warnings:  
+![js validate](assets/test-files/automated/js_validation_1.png)
+
 
 
 ### User Testing ###
