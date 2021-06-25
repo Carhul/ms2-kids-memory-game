@@ -1,6 +1,8 @@
 //Credit for getting the memory-game correct: Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w, Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334
 // and dandavies23 / smoothie-moves on GitHub: https://github.com/dandavies23/smoothie-moves/blob/master/game.html
 
+//jshint esversion: 6
+
 ///The game will wait for the DOM to finish loading before running
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -156,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const form = document.getElementById("contact-form");
 
 form.addEventListener("submit", function (event) {
-    event.preventDefault()
+    event.preventDefault();
     const name = form.name.value;
     const email = form.email.value;
     const message = form.message.value;
