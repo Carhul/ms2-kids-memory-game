@@ -171,10 +171,6 @@ form.addEventListener("submit", function (event) {
     .then(
         function (response) {
             alert("Hi! We appreciate your message. We will get back to you before you can spell L E G O!", response);
-            $("#close-button").click(function () {
-                location.reload();
-            });
-
         },
         function (error) {
             console.log("FAILED", error);
