@@ -46,6 +46,17 @@ Put mocups here!!!!!
     ![submit alert error 501](assets/test-files/manuel/submit_alert_error_501.png)  
     After use of slack and watching the CI learning material again I removed the POST method. The submit button now function.  
     ![submit alert ok](assets/test-files/manuel/submit_alert.png)  
+    Email to user:  
+    ![email to user](assets/test-files/manuel/email_to_user.png)  
+    Email to developer:  
+    ![email to developer](assets/test-files/manuel/email_to_developer.png)
+
+* Kids Memory game
+
+The game should just turn two image boxes, and if a match - stay open. If not a match turn back to yellow. It should also count both score and moves. This works:  
+![turn boxes](assets/test-files/manuel/turn_boxes_score_moves.png)  
+When all matches are found the win-message should appear and it does:  
+![win message](assets/test-files/manuel/win_message.png)
 
 ### Automated Testing ###  
 
