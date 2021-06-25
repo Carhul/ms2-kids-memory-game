@@ -75,7 +75,14 @@ Play section:
 ![iphone6/7/8](assets/test-files/manuel/play_section/iphone6_7_8.png)
 ![iphonex](assets/test-files/manuel/play_section/iphonex.png)
 ![ipad](assets/test-files/manuel/play_section/ipad.png)
-![ipadpro](assets/test-files/manuel/play_section/ipadpro.png)
+![ipadpro](assets/test-files/manuel/play_section/ipadpro.png)  
+
+Contact section:  
+![pixel2](assets/test-files/manuel/contact_section/pixel2.png)
+![iphone6/7/8](assets/test-files/manuel/contact_section/iphone6_7_8.png)
+![iphonex](assets/test-files/manuel/contact_section/iphonex.png)
+![ipad](assets/test-files/manuel/contact_section/ipad.png)
+![ipadpro](assets/test-files/manuel/contact_section/ipadpro.png)
 
 
 ### Automated Testing ###  
