@@ -87,4 +87,16 @@ Contact section:
 
 ### Automated Testing ###  
 
+For HTML Validate I used [The W3C Markup Validation Service](https://validator.w3.org/), for CSS, [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and for JS I used [JSHint](https://jshint.com/)
+
+Testing before deployment:  
+
+Index.html first validate had fifteen warnings / error
+![html validate 1](assets/test-files/automated/html_validate_1.png)  
+After trying to remove them I got this on second attempt:  
+![html validate 2](assets/test-files/automated/html_validate_2.png)  
+Then after understanding how to correctly comment in the HTML I got this:  
+![html validate 3](assets/test-files/automated/html_validate_3.png).  
+The issue on line 32, 33 and 99 is a challenge, as I put it the other way around in the first place, but then got a bug. Solved the bug by switch place on button and a href. 
+
 ### User Testing ###
