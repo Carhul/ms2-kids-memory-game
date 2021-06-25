@@ -54,10 +54,13 @@ Put mocups here!!!!!
 
 * Kids Memory game
 
-The game should just turn two image boxes, and if a match - stay open. If not a match turn back to yellow. It should also count both score and moves. This works:  
-![turn boxes](assets/test-files/manuel/turn_boxes_score_moves.png)  
-When all matches are found the win-message should appear and it does:  
-![win message](assets/test-files/manuel/win_message.png)
+  The game should just turn two image boxes, and if a match - stay open. If not a match turn back to yellow. It should also count both score and moves. This works:  
+  ![turn boxes](assets/test-files/manuel/turn_boxes_score_moves.png)  
+  When all matches are found the win-message should appear and it does:  
+  ![win message](assets/test-files/manuel/win_message.png)  
+
+* GitHub link on footer  
+Opens in a new tab and takes the user to the developers GitHub page as it should.
 
 ### Automated Testing ###  
 
