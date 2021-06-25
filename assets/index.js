@@ -67,9 +67,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const reset = document.getElementById("reset");
     let moves = 0;
 
-    let cardsChosen = []
-    let cardsChosenId = []
-    let cardsCorrect = []
+    let cardsChosen = [];
+    let cardsChosenId = [];
+    let cardsCorrect = [];
 
     //Create Memory-game board
     function createMemory() {
@@ -86,8 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
     //Check for card-matches
     function checkForMatch() {
         const cards = document.querySelectorAll("img");
-        const optionOneId = cardsChosenId[0]
-        const optionTwoId = cardsChosenId[1]
+        const optionOneId = cardsChosenId[0];
+        const optionTwoId = cardsChosenId[1];
 
         if (cardsChosen[0] === cardsChosen[1] && cardsChosenId[0] !== cardsChosenId[1]) {
             cards[optionOneId].removeEventListener("click", flipCard);
@@ -101,8 +101,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         //Clear the cards chosen
-        cardsChosen = []
-        cardsChosenId = []
+        cardsChosen = [];
+        cardsChosenId = [];
 
         //Increase the score for each correct match
         score.textContent = cardsCorrect.length;
@@ -147,8 +147,8 @@ document.addEventListener("DOMContentLoaded", () => {
         moves ++;
     }
 
-    createMemory()
-})
+    createMemory();
+});
         
 
 //Contact-form 
@@ -176,4 +176,4 @@ form.addEventListener("submit", function (event) {
             console.log("FAILED", error);
         }
     );
-})
+});
