@@ -103,22 +103,18 @@
     position: relative;
     background-color: #FEE73B;
     color: #FDA6F5;
-    /*
-    border: 1px solid #000;
-    */
     padding: 4px;
     border-radius: 4px;
+    border: 1px solid #FEE73B;
 }
 
 #contact-button {
     position: relative;
     background-color: #FEE73B;
     color: #37B5FF;
-    /*
-    border: 1px solid #000;
-    */
     padding: 4px;
     border-radius: 4px;
+    border: 1px solid #FEE73B;
 }
 
 @media only screen and (min-width: 768px) {
@@ -197,6 +193,7 @@
     background-color: #FEE73B;
     color: #FDA6F5;
     border-radius: 4px;
+    border: 1px solid #FEE73B;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -233,20 +230,31 @@
     display: flex;
 }
 
+/*----------------Contact buttons---*/
+
+.contact-buttons {
+    text-align: center;
+}
+
 #submit-button {
     background-color: #FEE73B;
     color: #FDA6F5;
     border-radius: 4px;
     text-align: center;
+    border: 1px solid #FEE73B;
 }
 
 #clear-button {
     background-color: #FEE73B;
     color: #37B5FF;
-    /*
-    border: 1px solid #000;
-    */
     border-radius: 4px;
+    border: 1px solid #FEE73B;
+}
+
+#play-again {
+    background-color: #FDA6F5;
+    border-radius: 4px;
+    border: 1px solid #FDA6F5
 }
 
 /*----------------Footer---*/
