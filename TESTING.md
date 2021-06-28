@@ -118,6 +118,8 @@ Google Chrome and Safari works fine and are corresponding to the screenshots fro
 
 ### User Testing ###  
 
-I asked my friends to check the web application and look for bugs and overall what they thought about the layout and the design. I got no bugs reported in return from anyone. The feedback on the layout and design was all good, and they had used it with their kids as well. They enjoyed it and thought it was fun and had nice colours. They also wanted to play more! So that was a really good feedback.  
+I asked my friends to check the web application and look for bugs and overall what they thought about the layout and the design. I got no bugs reported in return from anyone. The feedback on the layout and design was all good, and they had used it with their kids as well. They enjoyed it and thought it was fun and had nice colours. They also wanted to play more! So that was a really good feedback.  The only thing they wanted to change was the time the cards was visible before they turned back if not a pair. They wanted it to be visable for a little longer, so I changed that. 
 
-The test users used the following phones: Iphone se / 6, Iphone 8, Iphone X and Ipad. 
+The test users used the following phones: Iphone se / 6, Iphone 8, Iphone X and Ipad.  
+
+Peer code review:  
