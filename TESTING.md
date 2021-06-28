@@ -11,6 +11,7 @@
 2. [Manual Testing](#Manual-Testing)  
 3. [Automated Testing](#Automated-Testing)  
 4. [User Testing](#User-Testing)  
+5. [Bugs](#Bugs)
 
 ![mockup](assets/test-files/mockups/mocup2.png)  
 
@@ -132,4 +133,27 @@ Feedback from [Sean Young_lead](https://app.slack.com/client/T0L30B202/CGWQJQKC5
 * The Bugs section I'd personally put in TESTING.md but that's probably more personal choice.  
 * There's the issue tracker in github which can be used to raise issues and can be referenced with commits that fix them. It's a great tool for linking in your README and documenting faults/fixes (and can help to gain marks) if you use it in future when your testing picks up an issue. [GitHub Issues](https://guides.github.com/features/issues/).
 
-Also feedback from Sean Mc, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): Looks great and works well! Really nice use of images, the whole app has a very polished and consistent feel.
+Also feedback from Sean Mc, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): Looks great and works well! Really nice use of images, the whole app has a very polished and consistent feel.  
+
+### Bugs ###  
+
+* Header and menu button on top of the background balloon image was not as easy as I thought at first. I needed to google a lot, and in the end I had read and watched so much that I decided to give it a try in the inspection tool with all the new input - and it worked!
+For this I used [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/), [Youtube](https://www.google.com/search?q=youtube+html+css+text+over+image+responsive&ei=4ebMYJHyAcTJrgSk1oigBw&oq=youtube+html+css+text+over+image+responsive&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgAEBM6CAgAEBYQHhATOggIIRAWEB0QHjoFCCEQoAE6BwghEAoQoAE6BAghEBVQlDNYnsQBYIHHAWgMcAJ4AIABkgGIAYYYkgEEMjcuN5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjR5rzv6KHxAhXEpIsKHSQrAnQQ4dUDCA0&uact=5) and [StackOverflow](https://stackoverflow.com/questions/14715796/css-menu-background-height-and-text-height). In the middle call, I got feedback from my mentor that the page just looked hacked, and she recomended me to use height 100vh and put the background image as a background image in the CSS file. I started work on it and eventually I got it.
+
+* Link from Play and Contact button would not work, solved it with the help of [StackOverflow](https://stackoverflow.com/questions/17375708/how-to-create-an-html-button-that-acts-like-a-link-to-an-item-on-the-same-page). I had put the a href inside the button, but it obviously had to be the other way around. In HTML validation, this comes out as a error - but for now I just need to leave it like this as it doesen`t work if I turn them back to the original code.
+
+* The addEventListener in JS file would not work. Corrected typo in relative path after hours with panic not finding the bug.
+
+* The Memory Game section would not stay in place as a "whole box". After lots of google and coffe break without making it right I moved on. When I jumped back to take a new look I discovered that I had not added height and width..
+
+* The biggest bug in this project was that the Memory Game would not work correctly. The boxes turn, but they do not turn back, and sometimes one of the cards fly up on the top-left corner for some reason.  
+  
+  How I solved it:
+  
+  After one and a half day of trying to figure out the issue using google, youtube and looking at other peoples code I was not getting any wiser on why it did not work. I asked my mentor as I had my middle call. She recomend to look some more on other peoples code, so I did. After another day of looking and trying out different methods from others, I lost track of what I was doing, and decided to use version controll and go back for my original code. When copy-paste that in and reload - it worked..! I really dont know why it did not work in the first place, but the feeling when it worked was priceless!  
+
+* Moves count wouldent go to zero when pushed on reset button. Changed the variables names to the same as [Michelle3334](https://github.com/Michelle3334/freaky_memory/blob/master/assets/js/script.js). The bug was probably just a typo. 
+
+* The GitHub icon would not be styled. I eventually understood that to style it I needed to target the fa-github-square directly.
+
+* After middle call with mentor, she recommended to use the height 100vh to make the content look nicer. I first did it on all three sctions, main, play and contact and it looked really nice. When pushed play, you got the play section on the whole screen. The same on contact. It worked on all screen sizes in inspection, but when I was dobble checking the responsive design, everything was floating around! As I was initially happy with the first layout, I made the decision to just keep the height 100vh on the main page with the header and buttons, and remove it again on the other two. 
