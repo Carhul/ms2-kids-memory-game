@@ -118,7 +118,8 @@ The design of this web application has been created based on the colorful person
 
   The page starts with the name "Kids memory-game", and the play and contact buttons on a nice background photo of two Lego figures.
 
-  "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.
+  "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.  
+  When all pairs are found, an alert of "Congratulations! You found all the pairs!" will show up.
 
   It then shows "Thank you for playing" and a nice little lego ice-break image before the contact form on a Lego sandman background. 
   

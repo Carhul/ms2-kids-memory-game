@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //Alert message when all matches are found
         if (cardsCorrect.length === cardArray.length/2) {
-            document.getElementById("win-message").innerHTML = "Congratulations! You found all the matches!";
+            document.getElementById("win-message").innerHTML = "Congratulations! You found all the pairs!";
         }
     }
 
