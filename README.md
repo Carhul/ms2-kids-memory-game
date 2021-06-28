@@ -118,12 +118,12 @@ The design of this web application has been created based on the colorful person
 
   The page starts with the name "Kids memory-game", and the play and contact buttons on a nice background photo of two Lego figures.
 
-  "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.  
+  "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.
   When all pairs are found, an alert of "Congratulations! You found all the pairs!" will show up.
 
-  It then shows "Thank you for playing" and a nice little lego ice-break image before the contact form on a Lego sandman background. 
+  It then shows "Thank you for playing" and a nice little lego ice-break image before the contact form. 
   
-  At the end we got the GitHub icon. 
+  At the end we got the GitHub icon who takes the user to the developers GitHub page.
 
   All round, the game is looking nice and fun to play. Especially according to my kids!
 
@@ -135,7 +135,6 @@ The design of this web application has been created based on the colorful person
 
   [Fontawsome](https://fontawesome.com/icons?d=gallery&p=2) provided the icon for [Github](https://fontawesome.com/v5.15/icons/github?style=brands).
 
-In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea.
 
 * Colours  
 
@@ -144,7 +143,6 @@ All the colours were handpicked by the kids, (with a little intervention by the 
   * Background: Blue Jeans, #37B5FF
   * Text: Middle Yellow, #FEE73B  
   * Buttons: Middle Yellow and Plum Web, #FDA6F5   
-  * Stroke: Black, #000000  
 
   Color Scheme from [Coolors](https://coolors.co/);  
   ![image](assets/wireframes/color_palett.png)   
@@ -152,11 +150,15 @@ All the colours were handpicked by the kids, (with a little intervention by the 
 ### Changes from wireframes to published application ###  
 The menu-button was only supposed to contain play and contact. As I started to work with the application I made it become two buttons for each instead, as the dropdown seemed redundant. I also chose to place them underneath the Kids Memory text, because two buttons was to much on smaller screen and I wanted it to look as alike as possible on all screensizes as this is an application for kids. 
 
-Stroke on text and border on buttons was removed as it looked more UX-friendly.  
+Stroke: Black #000, on text and border on buttons was removed as it looked more UX-friendly.  
 
 Reset-button was originally on the same line as Score and Moves. I moved it to be underneath as it looked nicer.
 
-Background image on contact form was to much. When I started to work with it I thought it was distracting and decided to not include it to get a more "clean" look. 
+Background image on contact form was to much. When I started to work with it I thought it was distracting and decided to not include it to get a more "clean" look.  
+
+In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea.  
+
+Stroke: Black, #000000
 
 
 ### Features ###  
