@@ -123,3 +123,13 @@ I asked my friends to check the web application and look for bugs and overall wh
 The test users used the following phones: Iphone se / 6, Iphone 8, Iphone X and Ipad.  
 
 Peer code review:  
+
+Feedback from [Sean Young_lead](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100) on Slack.  
+
+* On cardArray.sort(() => 0.5 - math.random()); This is not the best way of shuffle an array. Recomends that I take a look on [StackOverflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array) to see they discuss the use and implementation of the Fisher-Yates shuffle algorithm for randomishing arrays.  
+* Cards sometimes get stuck unflipped and double clicking a card registeres a move.  
+* User stories seem to be stretched out amongst multiple sections? They don't seem to follow the normal pattern of As a user I want to <> so that I can <>.  
+* The Bugs section I'd personally put in TESTING.md but that's probably more personal choice.  
+* There's the issue tracker in github which can be used to raise issues and can be referenced with commits that fix them. It's a great tool for linking in your README and documenting faults/fixes (and can help to gain marks) if you use it in future when your testing picks up an issue. [GitHub Issues](https://guides.github.com/features/issues/).
+
+Also feedback from Sean Mc, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): Looks great and works well! Really nice use of images, the whole app has a very polished and consistent feel.
