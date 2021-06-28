@@ -158,8 +158,6 @@ Background image on contact form was to much. When I started to work with it I t
 
 In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea.  
 
-Stroke: Black, #000000
-
 
 ### Features ###  
 
@@ -172,12 +170,13 @@ Features that have been implemented:
 * Button change color when pushed
 * Easy to navigate on all screensizes 
 * Contact form with submit button. Here you can ask questions to the developer  
-* Social media links 
+* GitHub link 
 
 Features that will be implemented in the future:  
 * Highscore
 * Increased difficulty
 * Background music / button on-off
+* Sound when boxes in Memory Game are pushed
 
 ### Technologies ###  
 Languages  
@@ -191,7 +190,7 @@ Git was used for version control by utilizing the GitPod terminal to commit to G
 * [Bootstrap](https://getbootstrap.com/)  
 Bootstrap was used to implement the responsiveness of the site, with bootstrap classes.  
 * [Fontawsome](https://fontawesome.com/)  
-Font Awesome was used to import icons the GitHub icon for UX purposes.  
+Font Awesome was used to import the GitHub icon for UX purposes.  
 * [Google Fonts](https://fonts.google.com/)  
 Google fonts was used to import the fonts Peralta, Roboto and Sans-serif into the style.css file.  
 * [Unsplash](https://unsplash.com/)  
@@ -210,48 +209,26 @@ Used to validate the CSS.
 Used to validate the JS.
 
 ### Testing ###  
-The testing process for me has been through the intire building of the web application, as I wanted everything to be perfect before moving on. It was also importent to make sure that the site meets all the user stories criteria.
-
-For HTML Validate I used [The W3C Markup Validation Service](https://validator.w3.org/), for CSS, [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and for JS I used [JSHint](https://jshint.com/)
-
-Testing before deployment:
-
-TESTING IN HERE!!!
-
-Index / Home validate:   
-![Index validate](assets/images/testing/index_validate_ok.png)  
-
-CSS validate:  
-![CSS validate](assets/images/testing/css_validate_ok.png)
-
-Wright down all testing under the process !!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Here I got two errors the first time, but forgot to take a printscreen. The first one was that I got an extra div I needed to delete, and the second was "spacing not allowed", removed the extra space.  
-
-I have tested the live site on different screens: iphone 6, 8, x and x plus - as well as tablet, desktop l and xl. I can see that it has some small alignment issues to be 100% perfekt, but I am happy with how it looks - for now. 
-
-Testing on both Safari and Google Crome, and working fine. I think maybe it loads a little to slow on gallery page.  
-
-Peer-code review: 
-
-User testing feedback:
+The whole test process can be seen at [TESTING.md](TESTING.md).
 
 ### Bugs ###   
 
 Header and menu button on top of the background balloon image was not as easy as I thought at first. I needed to google a lot, and in the end I had read and watched so much that I decided to give it a try in the inspection tool with all the new input - and it worked!
-For this I used [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/), [Youtube](https://www.google.com/search?q=youtube+html+css+text+over+image+responsive&ei=4ebMYJHyAcTJrgSk1oigBw&oq=youtube+html+css+text+over+image+responsive&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgAEBM6CAgAEBYQHhATOggIIRAWEB0QHjoFCCEQoAE6BwghEAoQoAE6BAghEBVQlDNYnsQBYIHHAWgMcAJ4AIABkgGIAYYYkgEEMjcuN5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjR5rzv6KHxAhXEpIsKHSQrAnQQ4dUDCA0&uact=5) and [StackOverflow](https://stackoverflow.com/questions/14715796/css-menu-background-height-and-text-height).
+For this I used [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/), [Youtube](https://www.google.com/search?q=youtube+html+css+text+over+image+responsive&ei=4ebMYJHyAcTJrgSk1oigBw&oq=youtube+html+css+text+over+image+responsive&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgAEBM6CAgAEBYQHhATOggIIRAWEB0QHjoFCCEQoAE6BwghEAoQoAE6BAghEBVQlDNYnsQBYIHHAWgMcAJ4AIABkgGIAYYYkgEEMjcuN5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjR5rzv6KHxAhXEpIsKHSQrAnQQ4dUDCA0&uact=5) and [StackOverflow](https://stackoverflow.com/questions/14715796/css-menu-background-height-and-text-height). In the middle call, I got feedback from my mentor that the page just looked hacked, and she recomended me to use height 100vh and put the background image as a background image in the CSS file. I started work on it and eventually I got it.
 
-Link from Play and Contact button would not work, solved it with the help of [StackOverflow](https://stackoverflow.com/questions/17375708/how-to-create-an-html-button-that-acts-like-a-link-to-an-item-on-the-same-page). I had put the a href inside the button, but it obviously had to be the other way around!
+Link from Play and Contact button would not work, solved it with the help of [StackOverflow](https://stackoverflow.com/questions/17375708/how-to-create-an-html-button-that-acts-like-a-link-to-an-item-on-the-same-page). I had put the a href inside the button, but it obviously had to be the other way around. In HTML validation, this comes out as a error - but for now I just need to leave it like this as it doesen`t work if I turn them back to the original code.
 
 The addEventListener in JS file would not work. Corrected typo in relative path after hours with panic not finding the bug.
 
 The Memory Game section would not stay in place as a "whole box". After lots of google and coffe break without making it right I moved on. When I jumped back to take a new look I discovered that I had not added height and width..
 
-The Memory Game would not work correctly. The boxes turn, but they do not turn back, and sometimes one of the cards fly up on the top-left corner for some reason. How I solved it:
+The biggest bug in this project was that the Memory Game would not work correctly. The boxes turn, but they do not turn back, and sometimes one of the cards fly up on the top-left corner for some reason.  
   
-  After one and a half day of trying to figure out the issue using google, youtube and looking at other peoples code I was not getting any wiser on why it did not work. I asked my mentor as I had my middle call. She recomend to look some more on other peoples code, so I did. After another day of looking and trying out different methods from others, I lost track of what I was doing, and decided to use version controll and go back for my original code. When copy-paste that in and reload - it worked..! I really dont know why it did not work in the first place, and this is really my bigges bug until now. But the feeling when it worked was priceless!  
+  How I solved it:
+  
+  After one and a half day of trying to figure out the issue using google, youtube and looking at other peoples code I was not getting any wiser on why it did not work. I asked my mentor as I had my middle call. She recomend to look some more on other peoples code, so I did. After another day of looking and trying out different methods from others, I lost track of what I was doing, and decided to use version controll and go back for my original code. When copy-paste that in and reload - it worked..! I really dont know why it did not work in the first place, but the feeling when it worked was priceless!  
 
-Moves count wouldent go to zero when pushed on reset button. Changed the variables names to the same as [Michelle3334](https://github.com/Michelle3334/freaky_memory/blob/master/assets/js/script.js). Probably just a typo. 
+Moves count wouldent go to zero when pushed on reset button. Changed the variables names to the same as [Michelle3334](https://github.com/Michelle3334/freaky_memory/blob/master/assets/js/script.js). The bug was probably just a typo. 
 
 The GitHub icon would not be styled. I eventually understood that to style it I needed to target the fa-github-square directly.
 
@@ -341,11 +318,13 @@ Memorybox images:
 
 Memory Game:  
 
-Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w & Michelle3334 / freaky_memory on GitHub: https://github.com/Michelle3334
+* Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w  
+* [Michelle3334](https://github.com/Michelle3334) / freaky_memory on GitHub.
+* [dandavies23](https://github.com/dandavies23/smoothie-moves/blob/master/game.html) / smoothie-moves on GitHub.
     
 ### Acknowledgements ###
 
-* My mentor, Seun, for her once again indispensable guidance, motivation and magic trics along the way. She really inspire me with here knowledge, humor and good mood! 
+* My mentor, Seun, for her once again motivation and guidance. She really inspires me with here knowledge, humor and good mood! 
 * My kids, for helping me with the colours and pictures for this application.  
 * My husband for the patience in this, and also input. 
 * Friends and colleagues for their feedback along the way.
