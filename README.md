@@ -165,9 +165,10 @@ The web application has a responsive layout who has pretty much the same layout 
 
 Features that have been implemented:  
 * Memory-game
+* Play and contact button who takes you to the respective section
 * Score and number of moves used
 * Reset button
-* Button change color when pushed
+* Submit, clear form and play again buttons in contact section
 * Easy to navigate on all screensizes 
 * Contact form with submit button. Here you can ask questions to the developer  
 * GitHub link 
