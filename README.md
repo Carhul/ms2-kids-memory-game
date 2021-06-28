@@ -1,5 +1,7 @@
 # Kids memory-game #
-_How good are your memory?_
+_How good are your memory?_  
+
+[View the live site here](https://carhul.github.io/ms2-kids-memory-game/).
 
 ![mockup](assets/test-files/mockups/mocup2.png) 
 

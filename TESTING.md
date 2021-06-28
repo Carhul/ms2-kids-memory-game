@@ -1,7 +1,7 @@
 # Testing #    
 
 [README.md file](README.md)  
-[View live project]()  
+[View live project](https://carhul.github.io/ms2-kids-memory-game/)  
 
 ---  
 
