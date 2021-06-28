@@ -158,7 +158,7 @@ Background image on contact form was to much. When I started to work with it I t
 
 In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea.  
 
-On contact form, my first intention was to make the form automatic-clear. But then I came over a comment on slack. Why would you want the form to clear after submit? The user get`s an alert that the form is submitted, and also receives an email with confirmation. So I decided to use a clear form button instead, so that the user can see what was submitted, and clear if they want - also if they want to start over before submitting.  
+On contact form, my first intention was to make the form automatic-clear. But then I came over a comment on slack. Why would you want the form to clear after submit? The user get`s an alert that the form is submitted, and also receives an email with confirmation. So I decided to use a clear form button instead, so that the user can see what was submitted, and clear if they want - also if they want to start over before submitting. I also added a play again button so the user could jump right back in to the game. 
 
 
 ### Features ###  
