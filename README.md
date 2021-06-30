@@ -237,6 +237,8 @@ Used to validate the CSS.
 Used to validate the JS.  
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse)  
 Used to test the performance on phone and desktop.  
+* [Free Formatter](https://www.freeformatter.com/)  
+Used to beautify both the HTML, CSS and JS.   
 
 ### Testing ###  
 The whole test process can be seen in the [TESTING.md](TESTING.md) file.
