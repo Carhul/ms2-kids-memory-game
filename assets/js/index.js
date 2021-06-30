@@ -60,15 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     //Sort the cards random
-
-    function shuffleArray(cardArray) {
-        for (var i = cardArray.length - 1; i > 0; i--) {
-            var j = Math.floor(Math.random() * (i + 1));
-            var temp = cardArray[i];
-            cardArray[i] = img[j];
-            cardArray[j] = temp;
-        }
-    }
+    cardArray.sort(() => 0.5 - Math.random());
 
     //Constants
     const memoryGame = document.querySelector("#memory-game");
