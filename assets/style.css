@@ -313,23 +313,21 @@ footer {
 }
 
 #error-img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
 #error button {
-    background-color: var(--blue);
-    border-radius: 7px;
-    border: 2px solid var(--white);
-    box-shadow: 0 8px 16px 0 var(--btn-shadow), 0 6px 20px 0 var(--btn-shadow);
+    background-color: #37B5FF;
+    border-radius: 4px;
 }
 #error button > a {
     font-size: 1.5rem;
-    color: var(--white);
+    color: #FEE73B;
     text-decoration: none;
 }
 #error button:hover  {
-    background-color: var(--white);
+    background-color: #FEE73B;
 }
 #error button > a:hover {
-    color: var(--blue);
+    color: #37B5FF;
 }
