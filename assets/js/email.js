@@ -2,25 +2,25 @@
 
 function sendMail(contactForm) {
     emailjs.send("service_g3chatm", "KidsMemory", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.email.value,
-        "message": contactForm.message.value
-})
+            "from_name": contactForm.name.value,
+            "from_email": contactForm.email.value,
+            "message": contactForm.message.value
+        })
 
-.then(
-    function () {
-        document.getElementById("contact-form").reset();
-    })
+        .then(
+            function () {
+                document.getElementById("contact-form").reset();
+            })
 
-    .then(
-        function (response) {
-            alert("Hi! We appreciate your message. We will get back to you before you can spell L E G O!", response);
-        },
+        .then(
+            function (response) {
+                alert("Hi! We appreciate your message. We will get back to you before you can spell L E G O!", response);
+            },
 
-    function (error) {
-        console.log("FAILED", error);
-    }
-    );
+            function (error) {
+                console.log("FAILED", error);
+            }
+        );
     return false;
-
+    
 }
