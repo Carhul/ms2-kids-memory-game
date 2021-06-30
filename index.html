@@ -1,130 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Meta data -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Online memory game with lego theme">
+        <meta name="author" content="Carolina Hulløen">
 
-<head>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/images/km-icon.png" title="Kids Memory Thumbnail Image">
 
-    <!-- Meta data -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Online memory game with lego theme">
-    <meta name="author" content="Carolina Hulløen">
+        <!-- Stylesheets and scripts -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+            integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/style.css" type="text/css" />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/km-icon.png" title="Kids Memory Thumbnail Image">
+        <!-- Page Title -->
+        <title>Kids Memory</title>
 
-    <!-- Stylesheets and scripts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/style.css" type="text/css" />
-    
-    <!-- Page Title -->
-    <title>Kids Memory</title>
+        <!-- EmailJS Link -->
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script>
+            (function() {
+                emailjs.init("user_SI4fZxvdtcmTXNnQhJGeJ");
+            })();
+        </script>
+    </head>
+    <body id="body-bg">
 
-    <!-- EmailJS Link -->
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script>
-        (function() {
-            emailjs.init("user_SI4fZxvdtcmTXNnQhJGeJ");
-        })();
-    </script>
-</head>
-
-<body id="body-bg">
-
-    <!-- Kids Memory header, Play & Contact buttons and bg-image -->
-
-    <div class="balloon-bg">
-        <div class="wraper">
-            <header class="text-header" id="header">Kids Memory</header>
-            <a href="#play"><button class="text-style" id="play-button" type="button">Play</button></a>
-            <a href="#contact-form"><button class="text-style" id="contact-button" type="button">Contact</button></a>
+        <!-- Kids Memory header, Play & Contact buttons and bg-image -->
+        <div class="balloon-bg">
+            <div class="wraper">
+                <header class="text-header" id="header">Kids Memory</header>
+                <a href="#play"><button class="text-style" id="play-button" type="button">Play</button></a>
+                <a href="#contact-form"><button class="text-style" id="contact-button" type="button">Contact</button></a>
+            </div>
         </div>
-    </div>
 
-    <!-- Text before Memory Game -->
+        <!-- Text before Memory Game -->
+        <div id="play">
+            <div>
+                <p class="text-header">PLAY</p>
+                <p class="text-style">How good are your memory?</p>
+                <p class="text-style">Push the boxes and see if you can find a match!</p>
+            </div>
 
-<div id="play">
-    <div>
-        <p class="text-header">PLAY</p>
-        <p class="text-style">How good are your memory?</p>
-        <p class="text-style">Push the boxes and see if you can find a match!</p>
-    </div>
+            <!-- Memory Game -->
+            <div class="game-wrap">
+                <div id="memory-game"></div>
+            </div>
 
-    <!-- Memory Game -->
-
-    <div class="game-wrap">
-        <div id="memory-game"></div>
-    </div>
-
-   <!-- Score, moves and reset -->
-
-   <div>
-    <p class="text-style" id="win-message"></p>
-   </div>
-
-    <div>
-        <div class="score_moves_wrap">
-           <p class="text-style">Score: <span id="score">0</span></p>        
-           <p class="text-style">Moves: <span id="moves">0</span></p>
+            <!-- Score, moves and reset -->
+            <div>
+                <p class="text-style" id="win-message"></p>
+            </div>
+            <div>
+                <div class="score_moves_wrap">
+                    <p class="text-style">Score: <span id="score">0</span></p>
+                    <p class="text-style">Moves: <span id="moves">0</span></p>
+                </div>
+                <div id="reset-container">
+                    <button id="reset" class="text-style reset" type="reset">Reset</button>
+                </div>
+            </div>
+            <div>
+                <p class="text-header great-day">It's a great day for gaming!</p>
+            </div>
         </div>
-        <div id="reset-container">
-          <button id="reset" class="text-style reset" type="reset">Reset</button>
+
+        <!-- Image of lego icecream-break -->
+        <div id="contact-section">
+            <img src="assets/images/background_images/lego_icecream_break_unsplash.jpg" class="img-fluid img-icecream" alt="Image of Lego figures with icecream">
+            <!-- Contact section - Credit: Bootstrap5, https://getbootstrap.com/docs/5.0/forms/overview/ -->
+            <p class="text-header">Have a question for us?</p>
+            <div class="container">
+                <form onsubmit="return sendMail(this);" id="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="text-style align-left">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="... I´m batman" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="text-style align-left">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="... bat@batman.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="text-style align-left">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="... Always be yourself. Unless you can be Batman.. Then always be BATMAN" required></textarea>
+                    </div>
+                    <div class="contact-buttons">
+                        <button type="submit" class="text-style" id="submit-button">Submit</button>
+                        <button type="reset" value="Clear Form" class="text-style" id="clear-button">Clear Form</button>
+                        <a href="#play"><button class="text-style" type="button" id="play-again" >Play again!</button></a>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <a href="https://github.com/Carhul/ms2-kids-memory-game" target="_blank" rel="noopener noreferrer"
+                    aria-hidden="true">
+                <i class="fab fa-github-square"></i>
+                <span class="sr-only">GitHub</span>
+                </a>
+            </footer>
         </div>
-    </div> 
-
-    <div>
-    <p class="text-header great-day">It's a great day for gaming!</p>
-    </div>
-  </div>
-
-
-    <!-- Image of lego icecream-break -->
-    <div id="contact-section">
-    <img src="assets/images/background_images/lego_icecream_break_unsplash.jpg" class="img-fluid img-icecream" alt="Image of Lego figures with icecream">
-
-    <!-- Contact section- Credit: Bootstrap5, https://getbootstrap.com/docs/5.0/forms/overview/ -->
-
-    <p class="text-header">Have a question for us?</p>
-
-    <div class="container">
-        <form onsubmit="return sendMail(this);" id="contact-form">
-            <div class="mb-3">
-                <label for="name" class="text-style align-left">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="... I´m batman" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="text-style align-left">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="... bat@batman.com" required>
-            </div>
-            <div class="mb-3">
-                <label for="message" class="text-style align-left">Message</label>
-                <textarea class="form-control" id="message" rows="4" placeholder="... Always be yourself. Unless you can be Batman.. Then always be BATMAN" required></textarea>
-            </div>
-            <div class="contact-buttons">
-            <button type="submit" class="text-style" id="submit-button">Submit</button>
-            <button type="reset" value="Clear Form" class="text-style" id="clear-button">Clear Form</button>
-            <a href="#play"><button class="text-style" type="button" id="play-again" >Play again!</button></a>
-            </div>
-        </form>
-    </div>
-
-    <!-- Footer -->
-
-    <footer>
-        <a href="https://github.com/Carhul/ms2-kids-memory-game" target="_blank" rel="noopener noreferrer"
-        aria-hidden="true">
-        <i class="fab fa-github-square"></i>
-        <span class="sr-only">GitHub</span>
-        </a>
-    </footer>
-</div>
-    
-    <!-- JavaScript -->
-<script src="assets/js/memory.js"></script>
-<script src="assets/js/email.js"></script>
-
-</body>
+        
+        <!-- JavaScript -->
+        <script src="assets/js/memory.js"></script>
+        <script src="assets/js/email.js"></script>
+    </body>
 </html>
