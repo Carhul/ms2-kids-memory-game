@@ -199,6 +199,9 @@ Features that have been implemented:
 * GitHub link  
   GitHub link takes the user to the developers GitHub page.  
 
+* Custom 404 page  
+* Favicon  
+
 Features that will be implemented in the future:  
 * Highscore
 * Increased difficulty
