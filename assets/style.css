@@ -84,7 +84,7 @@
 /*----------------Background image lego-balloons---*/
 
 .balloon-bg {
-    background-image: url("../assets/background_images/lego_party_unsplash.jpg");
+    background-image: url("../assets/images/background_images/lego_party_unsplash.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -11,51 +11,51 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardArray = [
         {
             name: "couch",
-            img: "assets/memory_box_images/ben_unsplash.jpg"
+            img: "assets/images/memory_box_images/ben_unsplash.jpg"
         },
         {
             name: "couch",
-            img: "assets/memory_box_images/ben_unsplash.jpg"
+            img: "assets/images/memory_box_images/ben_unsplash.jpg"
         },
         {
             name: "crossing road",
-            img: "assets/memory_box_images/daniel_cheung_unsplash.jpg"
+            img: "assets/images/memory_box_images/daniel_cheung_unsplash.jpg"
         },
         {
             name: "crossing road",
-            img: "assets/memory_box_images/daniel_cheung_unsplash.jpg"
+            img: "assets/images/memory_box_images/daniel_cheung_unsplash.jpg"
         },
         {
             name: "painting",
-            img: "assets/memory_box_images/daniel_cheung2_unsplash.jpg"
+            img: "assets/images/memory_box_images/daniel_cheung2_unsplash.jpg"
         },
         {
             name: "painting",
-            img: "assets/memory_box_images/daniel_cheung2_unsplash.jpg"
+            img: "assets/images/memory_box_images/daniel_cheung2_unsplash.jpg"
         },
         {
             name: "chicken",
-            img: "assets/memory_box_images/hello_im_nik_unsplash.jpg"
+            img: "assets/images/memory_box_images/hello_im_nik_unsplash.jpg"
         },
         {
             name: "chicken",
-            img: "assets/memory_box_images/hello_im_nik_unsplash.jpg"
+            img: "assets/images/memory_box_images/hello_im_nik_unsplash.jpg"
         },
         {
             name: "unicorn",
-            img: "assets/memory_box_images/ines_pimentel_unsplash.jpg"
+            img: "assets/images/memory_box_images/ines_pimentel_unsplash.jpg"
         },
         {
             name: "unicorn",
-            img: "assets/memory_box_images/ines_pimentel_unsplash.jpg"
+            img: "assets/images/memory_box_images/ines_pimentel_unsplash.jpg"
         },
         {
             name: "beach",
-            img: "assets/memory_box_images/zakaria_ahada_unsplash.jpg"
+            img: "assets/images/memory_box_images/zakaria_ahada_unsplash.jpg"
         },
         {
             name: "beach",
-            img: "assets/memory_box_images/zakaria_ahada_unsplash.jpg"
+            img: "assets/images/memory_box_images/zakaria_ahada_unsplash.jpg"
         } 
     ];
 
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function createMemory() {
         for (let i = 0; i < cardArray.length; i++) {
             const card = document.createElement("img");
-            card.setAttribute("src", "assets/memory_box_images/yellow_box.png");
+            card.setAttribute("src", "assets/images/memory_box_images/yellow_box.png");
             card.setAttribute("class", "game-card");
             card.setAttribute("data-id", i);
             card.addEventListener("click", flipCard);
@@ -97,8 +97,8 @@ document.addEventListener("DOMContentLoaded", () => {
             cardsCorrect.push(cardsChosen);
             movesCounter();
         } else {
-            cards[optionOneId].setAttribute("src", "assets/memory_box_images/yellow_box.png");
-            cards[optionTwoId].setAttribute("src", "assets/memory_box_images/yellow_box.png");
+            cards[optionOneId].setAttribute("src", "assets/images/memory_box_images/yellow_box.png");
+            cards[optionTwoId].setAttribute("src", "assets/images/memory_box_images/yellow_box.png");
             movesCounter();
         }
 
