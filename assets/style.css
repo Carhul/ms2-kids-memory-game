@@ -312,8 +312,8 @@ footer {
     min-height: 100vh;
 }
 
-#error-img {
-    max-width: 60%;
+#error-image {
+    max-width: 80%;
     height: auto;
 }
 #error button {
