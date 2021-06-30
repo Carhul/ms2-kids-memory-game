@@ -304,8 +304,8 @@ footer {
 #error {
     align-self: center;
     text-align: center;
-    font-size: 1.3em;
-    font-weight: 700;
+    font-size: 1.5em;
+    font-weight: 800;
     padding-top: 10%;
 
     min-width: 100vw;
@@ -313,7 +313,7 @@ footer {
 }
 
 #error-img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 #error button {
