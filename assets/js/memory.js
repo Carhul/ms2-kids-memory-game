@@ -67,7 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const scoreDisplay = document.querySelector("#score");
     const movesCount = document.querySelector("#moves");
     const reset = document.getElementById("reset");
-    let moves = 0;
 
     let cardsChosen = [];
     let cardsChosenId = [];
