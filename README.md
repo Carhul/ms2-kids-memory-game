@@ -3,7 +3,7 @@ _How good are your memory?_
 
 [View the live site here](https://carhul.github.io/ms2-kids-memory-game/).
 
-![mockup](assets/test-files/mockups/mocup2.png) 
+![mockup](assets/mockups/mocup2.png) 
 
 ## Table of contents ##
 
@@ -36,7 +36,7 @@ The main requirements in this project is to make a responsive and interactive we
 
 As a user I want to:
 * See a nice and colorful web application
-* See nice pictures  
+* See nice pictures of lego  
 * See my score and how many moves I used 
 * Have fun playing the game 
 * Have the ability to contact the developer for questions
@@ -47,7 +47,7 @@ In order to create a website that fulfilled the expectations as described above,
 
 ### Strategy ###  
   
-Divided into four categories, the website will focus on the following target audiences:  
+Divided into three categories, the website will focus on the following target audiences:  
   
   * ### Demographic: ###  
     
@@ -60,11 +60,6 @@ Divided into four categories, the website will focus on the following target aud
       * Love games  
       * Love having fun
       * Love learning
-
-    * ### Values: ###  
-
-      * Appreciates new games 
-      * Positivity always wins
     
     * ### Lifestyles: ###  
      
@@ -80,7 +75,8 @@ Divided into four categories, the website will focus on the following target aud
 ### Site Owner Goals ###  
 * The user having fun and relax 
 * The user gets in a good mood
-* The users grow their memory 
+* The users grow their memory  
+* The ability to receive and answer questions or feedback from the user
 
 ### Scope ###
 
@@ -89,10 +85,10 @@ Divided into four categories, the website will focus on the following target aud
 * Content that is visually appealing with lots of colours that kids appreciate 
 * Content is well structured
 * Easy to navigate the website using the "Play" and "Contact" button and scroll  
+* Easy to understand how to play the game and reset to play again
 * Easy to read typography
 * Operational link to GitHub that opens in a new tab  
-* Operational contact form for name, e-mail and message input  
-* The web application is quick to load  
+* Operational contact form for name, e-mail and message input   
 
 ### Skelton ###  
   
@@ -121,13 +117,15 @@ The design of this web application has been created based on the colorful person
   The page starts with the name "Kids memory-game", and the play and contact buttons on a nice background photo of two Lego figures.
 
   "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.
-  When all pairs are found, an alert of "Congratulations! You found all the pairs!" will show up.
+  When all pairs are found, an alert of "Congratulations! You found all the pairs!" will show up.  The user can then push the reset button to play again, or scroll further down. 
 
-  It then shows "Thank you for playing" and a nice little lego ice-break image before the contact form. 
-  
-  At the end we got the GitHub icon who takes the user to the developers GitHub page.
+  It then shows "Thank you for playing" and a nice little lego ice-break image before the contact form.  
 
-  All round, the game is looking nice and fun to play. Especially according to my kids!
+  The contact form have input fields for "Name", "Emailaddress" and "Message". All three needs to be filled before submit. The placeholder text written "by batman" is fun for the kids, and tries to convey that there are no questions or feedback that is stupid.  
+
+  Then you got the submit, clear form and play again buttons before the GitHub icon in the footer who takes the user to the developers GitHub page.
+
+  All round, the game is looking welcoming, delicate and fun to play. Especially according to my kids!
 
 * Fonts  
 
@@ -146,26 +144,26 @@ All the colours were handpicked by the kids, (with a little intervention by the 
   * Text: Middle Yellow, #FEE73B  
   * Buttons: Middle Yellow and Plum Web, #FDA6F5   
 
-  Color Scheme from [Coolors](https://coolors.co/);  
+  Color Scheme from [Coolors](https://coolors.co/)  
   ![image](assets/wireframes/color_palett.png)   
 
 ### Changes from wireframes to published application ###  
 The menu-button was only supposed to contain play and contact. As I started to work with the application I made it become two buttons for each instead, as the dropdown seemed redundant. I also chose to place them underneath the Kids Memory text, because two buttons was to much on smaller screen and I wanted it to look as alike as possible on all screensizes as this is an application for kids. 
 
-Stroke: Black #000, on text and border on buttons was removed as it looked more UX-friendly.  
+Stroke: Black #000, on text, and border on buttons, was removed as it looked more UX-friendly.  
 
-Reset-button was originally on the same line as Score and Moves. I moved it to be underneath as it looked nicer.
+Reset-button was originally on the same line as Score and Moves. I moved it to be underneath as it looked nicer.  After middle call with mentor she recommended me to make the content more compact. Therefore, the score, moves and reset are stacked on top of each other.  
 
-Background image on contact form was to much. When I started to work with it I thought it was distracting and decided to not include it to get a more "clean" look.  
+Background image on contact form was to much. When I started to work with it I thought it was distracting and decided to not include it to get a more "clean" look.   
 
-In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea.  
+On contact form, my first intention was to make the form automatic-clear. But then I came over a comment on slack, "Why would you want the form to clear after submit?" The user get`s an alert that the form is submitted, and also receives an email with confirmation. So I decided to use a clear form button instead, so that the user can see what was submitted, and clear if they want - also if they want to start over before submitting. I also added a play again button so the user could jump right back in to the game. I´m really happy with the contact form, as I think it turned out to be better then the wireframes.  
 
-On contact form, my first intention was to make the form automatic-clear. But then I came over a comment on slack. Why would you want the form to clear after submit? The user get`s an alert that the form is submitted, and also receives an email with confirmation. So I decided to use a clear form button instead, so that the user can see what was submitted, and clear if they want - also if they want to start over before submitting. I also added a play again button so the user could jump right back in to the game. 
+In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea. 
 
 
 ### Features ###  
 
-The web application has a responsive layout who has pretty much the same layout on all screensizes. The thought behind that decision is that the application is for kids. The placement of the content should be easy to remember and use regardless of whether the game is played on a phone or a tablet etc.   
+The web application has a responsive layout who has pretty much the same layout on all screensizes. The thought behind that decision is that the application is for kids. The placement of the content should be easy to remember and use, regardless of whether the game is played on a phone or a tablet etc.   
 
 Features that have been implemented:  
 * Memory-game
@@ -174,14 +172,15 @@ Features that have been implemented:
 * Reset button
 * Submit, clear form and play again buttons in contact section
 * Easy to navigate on all screensizes 
-* Contact form with submit button. Here you can ask questions to the developer  
+* Operational contact form for name, e-mail and message input  
 * GitHub link 
 
 Features that will be implemented in the future:  
 * Highscore
 * Increased difficulty
 * Background music / button on-off
-* Sound when boxes in Memory Game are pushed
+* Sound when boxes in Memory Game are pushed  
+* Styled alert messages with lego background
 
 ### Technologies ###  
 Languages  
@@ -193,7 +192,7 @@ Tools / Libraries
 * [Git](https://git-scm.com/)  
 Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.    
 * [Bootstrap](https://getbootstrap.com/)  
-Bootstrap was used to implement the responsiveness of the site, with bootstrap classes.  
+Bootstrap was used to implement the responsiveness of the site.
 * [Fontawsome](https://fontawesome.com/)  
 Font Awesome was used to import the GitHub icon for UX purposes.  
 * [Google Fonts](https://fonts.google.com/)  
@@ -205,7 +204,7 @@ Coolors was used to make the colorpalett.
 * [Ezgif](https://ezgif.com/resize)  
 Ezgif was used to resize the images in the Memory Game to avoid stretch.
 * [Multi Device Mockup Generator](http://techsini.com/multi-mockup/index.php)  
-Multi device mockup was used in order to see the responsive design throughout the process and to generate mockup image at the beginning of the readme file.  
+Multi device mockup was used in order to see the responsive design throughout the process and to generate mockup image at the beginning of the README.md and TESTING.md files.  
 * [The W3C Markup Validation Service](https://validator.w3.org/)
 Used to validate the HTML.
 * [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
@@ -214,7 +213,7 @@ Used to validate the CSS.
 Used to validate the JS.
 
 ### Testing ###  
-The whole test process can be seen at [TESTING.md](TESTING.md).
+The whole test process can be seen in the [TESTING.md](TESTING.md) file.
 
 ### Bugs ###   
 All larger bugs are stored in the [Testing.md](TESTING.md) file.
@@ -275,15 +274,11 @@ As I was already half way on this project when received feedback from my MS1, I 
 
 ### Credit ###  
 
-Content and text used in this website is written by me in collaboration with my kids and husband, Leon, Mila and Thomas.  
+Content and text used in this website is written by me in collaboration with my kids and husband, Leon (8 years old), Mila(6 years old) and Thomas.  
 
 #### Setup and text in README.md ####  
 
-I have used the same inspiration as I did in MS1 for the readme file. They where awsome then and still are! So thank you to:
-
-* [byllsa](https://github.com/byIlsa/Aloy-from-outcast-to-heroine/blob/master/README.md) and [Miranda](https://github.com/mkthewlis/Milestone-Project-1) for clear, neat and inspiring readme files.
-* [Pumpkin](https://www.pumpkinwebdesign.com/web-design-manchester/top-user-expectations-for-web-design-in-2021/) for inspiration on _user requirements and expectations_ section.  
-* [rebeccatraceyt](https://github.com/rebeccatraceyt) for an exceptional readme file, and and especially the deployment section - who is a copy/paste on Forking the respository and Creating a Clone.   
+I have used my own [README.md](https://github.com/Carhul/Wingmans-Brygge/blob/master/README.md) file from MS1 as inspiration for this README.md.  
   
 #### Images ####  
 
@@ -303,13 +298,14 @@ Memorybox images:
 
 Memory Game:  
 
-* Code with Ania Kubow, https://www.youtube.com/watch?v=tjyDOHzKN0w  
+* [Ania Kubow](https://www.youtube.com/watch?v=tjyDOHzKN0w) on youtube.  
 * [Michelle3334](https://github.com/Michelle3334) / freaky_memory on GitHub.
-* [dandavies23](https://github.com/dandavies23/smoothie-moves/blob/master/game.html) / smoothie-moves on GitHub.
+* [dandavies23](https://github.com/dandavies23/smoothie-moves/blob/master/game.html) / smoothie-moves on GitHub.  
+* [Sean Young_lead](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100) on Slack, for helping with bad randomized cardArray.
     
 ### Acknowledgements ###
 
+* My kids, for helping me with the colours and pictures for this application. 
 * My mentor, Seun, for her once again motivation and guidance. She really inspires me with here knowledge, humor and good mood! 
-* My kids, for helping me with the colours and pictures for this application.  
 * My husband for the patience in this, and also input. 
 * Friends and colleagues for their feedback along the way.

@@ -13,7 +13,7 @@
 4. [User Testing](#User-Testing)  
 5. [Bugs](#Bugs)
 
-![mockup](assets/test-files/mockups/mocup2.png)  
+![mockup](assets/mockups/mocup2.png)  
 
 ---
 
@@ -22,15 +22,19 @@
 1. As a user I want to see a nice and colourful web application.  
     
     When enter the application, the user meets a nice yellow Kids Memory header and buttons in pink and blue on a yellow background. This is stacked on top of a colourful background image of two lego figures holding balloons. The same color palette follows throughout the application.  
+
 2. As a user I want to see nice pictures.  
   
     We have the entering background image, twelve images when playing the Kids Memory game, and the cool icecream break image before the contact section.  
+
 3.  As a user I want to see my score and how many moves I used.  
     
     The score and moves counter works as it should, and keeps track until finish game and reset is pushed.  
+
 4.  As a user I want to have fun playing the game.  
     
     The game is absolutely fun for the Kids!  
+
 5.  As a user I want to have the ability to contact the developer for questions.  
     
     The contact form looks nice, with possibility to contact after input and submit, clear form or push Play again! 
