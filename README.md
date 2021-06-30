@@ -90,7 +90,7 @@ Divided into three categories, the website will focus on the following target au
 * Operational link to GitHub that opens in a new tab  
 * Operational contact form for name, e-mail and message input   
 
-### Skelton ###  
+### Skeleton ###  
   
 Wireframes are made in [Figma](https://www.figma.com/). This is a really nice program to check out different styles and how the final result would look like on different screensizes. This is used instead of Balsamiq on recomendation from my mentor.
 
