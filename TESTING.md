@@ -119,9 +119,10 @@ Index.js validation had no error, but thirty-three warnings:
 To clear the semicolon warnings, the semicolons where added. Credit for removing the remaining warnings about "is only available in ES6 (use 'esversion: 6" goes to Aukje - Red Pepper_Alumni on [Slack](https://app.slack.com/client/T0L30B202/search/search-559fc759-a216-4e4e-95ec-162e50113a71/thread/C7HD37Q1F-1616403659.141200). I added the line //jshint esversion: 6 to the index.js file and it worked perfect!  
 
 * Browser Testing  
-Google Chrome and Safari works fine and are corresponding to the screenshots from responsive testing.  
 
-* Lighthouse  
+  Google Chrome and Safari works fine and are corresponding to the screenshots from responsive testing.  
+
+* Lighthouse Testing:    
 
 Phone:  
 ![phone](assets/test-files/automated/lighthouse_phone.png)  
@@ -135,13 +136,15 @@ I asked my friends to check the web application and look for bugs and overall wh
 
 The test users used the following phones: Iphone se / 6, Iphone 8, Iphone X and Ipad.  
 
-Peer code review:  
+#### Peer code review: ####  
 
-Feedback from [Sean Young_lead](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100) on Slack.  
+Feedback from [Sean Young_lead](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100) on Slack:  
 
 * On cardArray.sort(() => 0.5 - math.random()); This is not the best way of shuffle an array. Recomends that I take a look on [StackOverflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array) to see they discuss the use and implementation of the Fisher-Yates shuffle algorithm for randomishing arrays.  
 
   Fixed this by changing the cardArray.sort(() => 0.5 - math.random()); to durstenfield shuffle algorithm.  
+      
+  After final call with mentor, we agreed on changing the code back to it`s original, as it did not shuffle the cards on reloading the page, but only when reset button was pushed.   
 
 * Cards sometimes get stuck unflipped and double clicking a card registeres a move.  
 
@@ -161,7 +164,8 @@ Feedback from [Sean Young_lead](https://app.slack.com/client/T0L30B202/CGWQJQKC5
 
 Feedback from Sean Mc, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): "Looks great and works well! Really nice use of images, the whole app has a very polished and consistent feel."  
 
-Feedback from MF Wilson, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): "Nicely done, luv the vibe!"
+Feedback from MF Wilson, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): "Nicely done, luv the vibe!"  
+
 
 ### Bugs ###  
 
