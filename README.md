@@ -28,7 +28,7 @@ What is Kids Memory-game? Kids memory-game is a fun and colorful memory-game tha
 
 This is the second of four Milestone Projects that I (the developer) must complete during my Full Stack Web Development Program at The Code Institute. I´m really exited for this memory-game. My kids helped me with pictures and colors and it has been a fun family-project! 
 
-The main requirements in this project is to make a responsive and interactive web application using primarily HTML5, CSS3 and JavaScript.
+The main requirements in this project is to design, develop and implement a dynamic front-end web application using HTML, CSS and Javascript.  
 
 ## UX ##
 
