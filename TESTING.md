@@ -105,6 +105,9 @@ Then after understanding how to correctly comment in the HTML I got this:
 The issue on line 32, 33 and 99 is a challenge, as I put it the other way around in the first place, but then got a bug. Solved the bug by switch place on button and a href. I cleaned up the last error by removing aria-describedby="emailHelp", as this is something I first thought to include but later removed but forgot to remove all of it:  
 ![html validate 4](assets/test-files/automated/html_validate_4.png)   
 
+404.html validate had one error:  
+![404 validate](assets/test-files/automated/html_404_validate.png)
+
 The remaining error needs to stay for now, as the web application is functional, and it is not if I turn them around. 
 
 Style.CSS first validate had no error but twenty-six warnings:  
