@@ -101,11 +101,11 @@ Index.html first validate had fifteen warnings / error
 After trying to remove them I got this on second attempt:  
 ![html validate 2](assets/test-files/automated/html_validate_2.png)  
 Then after understanding how to correctly comment in the HTML I got this:  
-![html validate 3](assets/test-files/automated/html_validate_3.png).  
+![html validate 3](assets/test-files/automated/html_validate_3.png)  
 The issue on line 32, 33 and 99 is a challenge, as I put it the other way around in the first place, but then got a bug. Solved the bug by switch place on button and a href. I cleaned up the last error by removing aria-describedby="emailHelp", as this is something I first thought to include but later removed but forgot to remove all of it:  
-![html validate 4](assets/test-files/automated/html_validate_4.png)  
+![html validate 4](assets/test-files/automated/html_validate_4.png)   
 
-MORE TESTING HERE ON HTML  
+The remaining error needs to stay for now, as the web application is functional, and it is not if I turn them around. 
 
 Style.CSS first validate had no error but twenty-six warnings:  
 ![css validate 1](assets/test-files/automated/css_validate_1.png)
@@ -132,12 +132,28 @@ Peer code review:
 Feedback from [Sean Young_lead](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100) on Slack.  
 
 * On cardArray.sort(() => 0.5 - math.random()); This is not the best way of shuffle an array. Recomends that I take a look on [StackOverflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array) to see they discuss the use and implementation of the Fisher-Yates shuffle algorithm for randomishing arrays.  
-* Cards sometimes get stuck unflipped and double clicking a card registeres a move.  
-* User stories seem to be stretched out amongst multiple sections? They don't seem to follow the normal pattern of As a user I want to <> so that I can <>.  
-* The Bugs section I'd personally put in TESTING.md but that's probably more personal choice.  
-* There's the issue tracker in github which can be used to raise issues and can be referenced with commits that fix them. It's a great tool for linking in your README and documenting faults/fixes (and can help to gain marks) if you use it in future when your testing picks up an issue. [GitHub Issues](https://guides.github.com/features/issues/).
 
-Also feedback from Sean Mc, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): Looks great and works well! Really nice use of images, the whole app has a very polished and consistent feel.  
+  Fixed this by changing the cardArray.sort(() => 0.5 - math.random()); to durstenfield shuffle algorithm.  
+
+* Cards sometimes get stuck unflipped and double clicking a card registeres a move.  
+
+  This error with cards sometimes get stuck unflipped, I can`t manage to reproduce. And no one else has either, so this is hard to fix. But I could reproduce the bug with moves count when double click. However, when trying to handle it I watched a lot of others work and discovered they got the same issue. I did not have the time to look in to this more before submit.  
+
+* User stories seem to be stretched out amongst multiple sections? They don't seem to follow the normal pattern of As a user I want to <> so that I can <>.  
+
+  I got really good feedback on my README.md for MS1, and I decided to keep the same structure as it makes sense to me and also the tutor as it was not mentioned in feedback for MS1.  
+
+* The Bugs section I'd personally put in TESTING.md but that's probably more personal choice.  
+
+  I totally agree on that, so I moved it.  
+
+* There's the issue tracker in github which can be used to raise issues and can be referenced with commits that fix them. It's a great tool for linking in your README and documenting faults/fixes (and can help to gain marks) if you use it in future when your testing picks up an issue. [GitHub Issues](https://guides.github.com/features/issues/).  
+
+  I used the issue tracker on my last issue, will definitely use it for my other projects.  
+
+Feedback from Sean Mc, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): "Looks great and works well! Really nice use of images, the whole app has a very polished and consistent feel."  
+
+Feedback from MF Wilson, in the same thread on [Slack](https://app.slack.com/client/T0L30B202/CGWQJQKC5/thread/CGWQJQKC5-1624870968.428100): "Nicely done, luv the vibe!"
 
 ### Bugs ###  
 
