@@ -8,8 +8,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     //Cards in Memory Game
-    const cardArray = [
-        {
+    const cardArray = [{
             name: "couch",
             img: "assets/images/memory_box_images/ben_unsplash.jpg"
         },
@@ -56,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             name: "beach",
             img: "assets/images/memory_box_images/zakaria_ahada_unsplash.jpg"
-        } 
+        }
     ];
 
     //Sort the cards random
@@ -109,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
         score.textContent = cardsCorrect.length;
 
         //Alert message when all matches are found
-        if (cardsCorrect.length === cardArray.length/2) {
+        if (cardsCorrect.length === cardArray.length / 2) {
             document.getElementById("win-message").innerHTML = "Congratulations! You found all the pairs!";
         }
     }
@@ -129,6 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //Reset the game
     reset.addEventListener("click", resetGame);
+
     function resetGame() {
         memoryGame.innerHTML = "";
         document.getElementById("win-message").innerHTML = "";
@@ -144,8 +144,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //Count each move
     function movesCounter() {
-        movesCount.innerHTML ++;
-        moves ++;
+        movesCount.innerHTML++;
+        moves++;
     }
 
     createMemory();
