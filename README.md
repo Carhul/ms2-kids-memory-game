@@ -229,12 +229,14 @@ Coolors was used to make the colorpalett.
 Ezgif was used to resize the images in the Memory Game to avoid stretch.
 * [Multi Device Mockup Generator](http://techsini.com/multi-mockup/index.php)  
 Multi device mockup was used in order to see the responsive design throughout the process and to generate mockup image at the beginning of the README.md and TESTING.md files.  
-* [The W3C Markup Validation Service](https://validator.w3.org/)
+* [The W3C Markup Validation Service](https://validator.w3.org/)  
 Used to validate the HTML.
-* [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)  
 Used to validate the CSS.
-* [JSHint](https://jshint.com/)
-Used to validate the JS.
+* [JSHint](https://jshint.com/)  
+Used to validate the JS.  
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)  
+Used to test the performance on phone and desktop.  
 
 ### Testing ###  
 The whole test process can be seen in the [TESTING.md](TESTING.md) file.
