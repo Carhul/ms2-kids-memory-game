@@ -96,13 +96,13 @@ Wireframes are made in [Figma](https://www.figma.com/). This is a really nice pr
 
 #### Design for mobile device: ####  
 ![mobile_1](assets/wireframes/phone/phone_1.png)  
-![mobile_2](assets/wireframes/phone/phone_2.png)
-![mobile_3](assets/wireframes/phone/phone_3.png)
+![mobile_2](assets/wireframes/phone/phone_2.png)  
+![mobile_3](assets/wireframes/phone/phone_3.png)  
   
 #### Design for tablet device: ####
-![tablet_1](assets/wireframes/tablet/tablet_1.png)
-![tablet_2](assets/wireframes/tablet/tablet_2.png)
-![tablet_2](assets/wireframes/tablet/tablet_3.png)
+![tablet_1](assets/wireframes/tablet/tablet_1.png)  
+![tablet_2](assets/wireframes/tablet/tablet_2.png)  
+![tablet_2](assets/wireframes/tablet/tablet_3.png)  
 
 #### Design for desktop device: ####
 ![desktop](assets/wireframes/desktop/desktop_1.png)
@@ -119,7 +119,7 @@ The design of this web application has been created based on the colorful person
   "Play" section. Here the user get`s the explanation on how to play, as it says "Push the boxes and see if you can find a match". Further on the user can see their score, and how many moves they used along the way.
   When all pairs are found, an alert of "Congratulations! You found all the pairs!" will show up.  The user can then push the reset button to play again, or scroll further down. 
 
-  It then shows "Thank you for playing" and a nice little lego ice-break image before the contact form.  
+  It then shows "It's a great day for gaming!" and a nice little lego ice-break image before the contact form.  
 
   The contact form have input fields for "Name", "Emailaddress" and "Message". All three needs to be filled before submit. The placeholder text written "by batman" is fun for the kids, and tries to convey that there are no questions or feedback that is stupid.  
 
@@ -128,8 +128,9 @@ The design of this web application has been created based on the colorful person
   All round, the game is looking welcoming, delicate and fun to play. Especially according to my kids!
 
 * Fonts  
-
-  [Google Fonts](https://fonts.google.com/specimen/Peralta#standard-styles): Peralta (fallback Roboto, sans-serif).
+  
+  [Google Fonts](https://fonts.google.com/specimen/Peralta#standard-styles): Peralta (fallback Roboto, sans-serif).  
+  This font is picked out by my youngest, she said it had a "fun and playful look", I agree.
 
 * Icons  
 
@@ -158,7 +159,9 @@ Background image on contact form was to much. When I started to work with it I t
 
 On contact form, my first intention was to make the form automatic-clear. But then I came over a comment on slack, "Why would you want the form to clear after submit?" The user get`s an alert that the form is submitted, and also receives an email with confirmation. So I decided to use a clear form button instead, so that the user can see what was submitted, and clear if they want - also if they want to start over before submitting. I also added a play again button so the user could jump right back in to the game. I´m really happy with the contact form, as I think it turned out to be better then the wireframes.  
 
-In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea. 
+In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea.  
+
+Text after the Memory Game board said "Thank you for playing!" But after the final call with mentor, I was advised to make it disappear and only show after played. But as I already have a text that shows when played, I changed the text to be "It`s a great day for gaming!".
 
 
 ### Features ###  
@@ -166,14 +169,35 @@ In the wireframes it first was intended to be Linkedin, snapchat and instagram, 
 The web application has a responsive layout who has pretty much the same layout on all screensizes. The thought behind that decision is that the application is for kids. The placement of the content should be easy to remember and use, regardless of whether the game is played on a phone or a tablet etc.   
 
 Features that have been implemented:  
-* Memory-game
-* Play and contact button who takes you to the respective section
-* Score and number of moves used
-* Reset button
-* Submit, clear form and play again buttons in contact section
-* Easy to navigate on all screensizes 
-* Operational contact form for name, e-mail and message input  
-* GitHub link 
+* Memory-game  
+  Let`s the user play a memory game with twelve cards, and by flipping them try to find all matching pairs.  
+
+* Play and contact button  
+  Takes the user to the respective section they want.  
+
+* Score and moves  
+  Show the user in real-time how many pairs (score), and how many moves used.  
+
+* Reset button  
+  Let`s the user reset the game to play again.  
+
+* Operational contact form  
+  Input for name, e-mail and message.  
+
+* Submit button  
+  Let`s the user submit the contact form after filling out all three input fields.  
+
+* Clear form button  
+  Let`s the user clear the form if he or she writes something wrong and want to start over.  
+
+* Play again button  
+  Let`s the user go straight up to the play section to play again without scrolling.  
+
+* Easy to navigate on all screensizes  
+  By making the layout look the same by adding responsivnes, it is easy for the user to navigate on all screensizes.  
+
+* GitHub link  
+  GitHub link takes the user to the developers GitHub page.  
 
 Features that will be implemented in the future:  
 * Highscore
