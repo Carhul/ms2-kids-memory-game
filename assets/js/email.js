@@ -1,26 +1,26 @@
-//Contact-form 
+//Contact-form - Credit for cleaner more understandig code, and reset function after submit: jas-sin82 / milestone-project-2 on GitHub: https://github.com/jas-sin82/milestone-project-2
 
-const form = document.getElementById("contact-form");
-
-form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    const name = form.name.value;
-    const email = form.email.value;
-    const message = form.message.value;
-
+function sendMail(contactForm) {
     emailjs.send("service_g3chatm", "KidsMemory", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.email.value,
+        "message": contactForm.message.value
+})
 
-        from_name: name,
-        from_email: email,
-        message: message
-        
+.then(
+    function () {
+        document.getElementById("contact-form").reset();
     })
+
     .then(
         function (response) {
             alert("Hi! We appreciate your message. We will get back to you before you can spell L E G O!", response);
         },
-        function (error) {
-            console.log("FAILED", error);
-        }
+
+    function (error) {
+        console.log("FAILED", error);
+    }
     );
-});
+    return false;
+
+}
