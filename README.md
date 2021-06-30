@@ -157,7 +157,7 @@ Reset-button was originally on the same line as Score and Moves. I moved it to b
 
 Background image on contact form was to much. When I started to work with it I thought it was distracting and decided to not include it to get a more "clean" look.   
 
-On contact form, my first intention was to make the form automatic-clear. But then I came over a comment on slack, "Why would you want the form to clear after submit?" The user get`s an alert that the form is submitted, and also receives an email with confirmation. So I decided to use a clear form button instead, so that the user can see what was submitted, and clear if they want - also if they want to start over before submitting. I also added a play again button so the user could jump right back in to the game. I´m really happy with the contact form, as I think it turned out to be better then the wireframes.  
+On contact form, I decided to add a clear form button, so that the user can clear the form if they want to start over before submitting. I also added a play again button so the user could jump right back in to the game.  
 
 In the wireframes it first was intended to be Linkedin, snapchat and instagram, but an icon-link to developers GitHub page rather than links to "blank" social media was determined as a better idea.  
 
@@ -185,7 +185,7 @@ Features that have been implemented:
   Input for name, e-mail and message.  
 
 * Submit button  
-  Let`s the user submit the contact form after filling out all three input fields.  
+  Let`s the user submit the contact form after filling out all three input fields. The submit button also clear the form automatic after it is pushed.     
 
 * Clear form button  
   Let`s the user clear the form if he or she writes something wrong and want to start over.  
